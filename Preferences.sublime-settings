@@ -1,0 +1,27 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    "color_scheme": "Packages/Colorsublime - Themes/Solarized-dark.tmTheme",
+    "font_face": "Fira Code",
+    "font_size": 12,
+    "mini_diff": false,
+    "rulers": [80, 100],
+    "ruler_style": "stippled",
+    "ruler_width": 2.0,
+    "translate_tabs_to_spaces": true,
+    "draw_centered": false,
+    "highlight_line": true,
+    "caret_style": "smooth",
+    "draw_white_space": ["all"],
+    "trim_trailing_white_space_on_save": "not_on_caret",
+    "ensure_newline_at_eof_on_save": true,
+    "save_on_focus_lost": true,
+    "auto_complete_commit_on_tab": true,
+    "shift_tab_unindent": true,
+    "theme": "Material-Theme.sublime-theme",
+    "sublime_merge_path": "/snap/bin/sublime-merge",
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+}
