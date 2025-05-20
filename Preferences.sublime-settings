@@ -1,7 +1,7 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-    "color_scheme": "Packages/Colorsublime - Themes/Solarized-dark.tmTheme",
+    "color_scheme": "Packages/Colorsublime - Themes/Dracula.tmTheme",
     "font_face": "Fira Code",
     "font_size": 12,
     "mini_diff": false,
