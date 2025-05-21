@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+# ifndef ${1:CLASS_NAME_HPP}
+# define ${1}
+
+
+class ${2:ClassName}
+{
+private:
+protected:
+public:
+    ${2}();
+    ~${2}();
+}
+
+
+# endif
+]]></content>
+<tabTrigger>
+    header
+</tabTrigger>
+<scope>
+    source.c++
+</scope>
+</snippet>
