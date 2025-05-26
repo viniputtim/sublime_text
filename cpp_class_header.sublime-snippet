@@ -1,17 +1,15 @@
 <snippet>
     <content><![CDATA[
-# ifndef ${1:CLASS_NAME_HPP}
+# ifndef ${1:CLASS_NAME}
 # define ${1}
 
 
 class ${2:ClassName}
 {
-private:
-protected:
 public:
     ${2}();
     ~${2}();
-}
+};
 
 
 # endif
