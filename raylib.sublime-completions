@@ -1,0 +1,2329 @@
+{
+    "scope": "source.c, source.c++",
+    "completions": [
+        {
+            "trigger": "InitWindow(int width, int height, const char *title);",
+            "contents": "InitWindow(${1:width}, ${2:height}, ${3:*title});"
+        },
+        {
+            "trigger": "CloseWindow(void);",
+            "contents": "CloseWindow();"
+        },
+        {
+            "trigger": "WindowShouldClose(void);",
+            "contents": "WindowShouldClose();"
+        },
+        {
+            "trigger": "IsWindowReady(void);",
+            "contents": "IsWindowReady();"
+        },
+        {
+            "trigger": "IsWindowFullscreen(void);",
+            "contents": "IsWindowFullscreen();"
+        },
+        {
+            "trigger": "IsWindowHidden(void);",
+            "contents": "IsWindowHidden();"
+        },
+        {
+            "trigger": "IsWindowMinimized(void);",
+            "contents": "IsWindowMinimized();"
+        },
+        {
+            "trigger": "IsWindowMaximized(void);",
+            "contents": "IsWindowMaximized();"
+        },
+        {
+            "trigger": "IsWindowFocused(void);",
+            "contents": "IsWindowFocused();"
+        },
+        {
+            "trigger": "IsWindowResized(void);",
+            "contents": "IsWindowResized();"
+        },
+        {
+            "trigger": "IsWindowState(unsigned int flag);",
+            "contents": "IsWindowState(${1:flag});"
+        },
+        {
+            "trigger": "SetWindowState(unsigned int flags);",
+            "contents": "SetWindowState(${1:flags});"
+        },
+        {
+            "trigger": "ClearWindowState(unsigned int flags);",
+            "contents": "ClearWindowState(${1:flags});"
+        },
+        {
+            "trigger": "ToggleFullscreen(void);",
+            "contents": "ToggleFullscreen();"
+        },
+        {
+            "trigger": "ToggleBorderlessWindowed(void);",
+            "contents": "ToggleBorderlessWindowed();"
+        },
+        {
+            "trigger": "MaximizeWindow(void);",
+            "contents": "MaximizeWindow();"
+        },
+        {
+            "trigger": "MinimizeWindow(void);",
+            "contents": "MinimizeWindow();"
+        },
+        {
+            "trigger": "RestoreWindow(void);",
+            "contents": "RestoreWindow();"
+        },
+        {
+            "trigger": "SetWindowIcon(Image image);",
+            "contents": "SetWindowIcon(${1:image});"
+        },
+        {
+            "trigger": "SetWindowIcons(Image *images, int count);",
+            "contents": "SetWindowIcons(${1:*images}, ${2:count});"
+        },
+        {
+            "trigger": "SetWindowTitle(const char *title);",
+            "contents": "SetWindowTitle(${1:*title});"
+        },
+        {
+            "trigger": "SetWindowPosition(int x, int y);",
+            "contents": "SetWindowPosition(${1:x}, ${2:y});"
+        },
+        {
+            "trigger": "SetWindowMonitor(int monitor);",
+            "contents": "SetWindowMonitor(${1:monitor});"
+        },
+        {
+            "trigger": "SetWindowMinSize(int width, int height);",
+            "contents": "SetWindowMinSize(${1:width}, ${2:height});"
+        },
+        {
+            "trigger": "SetWindowMaxSize(int width, int height);",
+            "contents": "SetWindowMaxSize(${1:width}, ${2:height});"
+        },
+        {
+            "trigger": "SetWindowSize(int width, int height);",
+            "contents": "SetWindowSize(${1:width}, ${2:height});"
+        },
+        {
+            "trigger": "SetWindowOpacity(float opacity);",
+            "contents": "SetWindowOpacity(${1:opacity});"
+        },
+        {
+            "trigger": "SetWindowFocused(void);",
+            "contents": "SetWindowFocused();"
+        },
+        {
+            "trigger": "GetWindowHandle(void);",
+            "contents": "GetWindowHandle();"
+        },
+        {
+            "trigger": "GetScreenWidth(void);",
+            "contents": "GetScreenWidth();"
+        },
+        {
+            "trigger": "GetScreenHeight(void);",
+            "contents": "GetScreenHeight();"
+        },
+        {
+            "trigger": "GetRenderWidth(void);",
+            "contents": "GetRenderWidth();"
+        },
+        {
+            "trigger": "GetRenderHeight(void);",
+            "contents": "GetRenderHeight();"
+        },
+        {
+            "trigger": "GetMonitorCount(void);",
+            "contents": "GetMonitorCount();"
+        },
+        {
+            "trigger": "GetCurrentMonitor(void);",
+            "contents": "GetCurrentMonitor();"
+        },
+        {
+            "trigger": "GetMonitorPosition(int monitor);",
+            "contents": "GetMonitorPosition(${1:monitor});"
+        },
+        {
+            "trigger": "GetMonitorWidth(int monitor);",
+            "contents": "GetMonitorWidth(${1:monitor});"
+        },
+        {
+            "trigger": "GetMonitorHeight(int monitor);",
+            "contents": "GetMonitorHeight(${1:monitor});"
+        },
+        {
+            "trigger": "GetMonitorPhysicalWidth(int monitor);",
+            "contents": "GetMonitorPhysicalWidth(${1:monitor});"
+        },
+        {
+            "trigger": "GetMonitorPhysicalHeight(int monitor);",
+            "contents": "GetMonitorPhysicalHeight(${1:monitor});"
+        },
+        {
+            "trigger": "GetMonitorRefreshRate(int monitor);",
+            "contents": "GetMonitorRefreshRate(${1:monitor});"
+        },
+        {
+            "trigger": "GetWindowPosition(void);",
+            "contents": "GetWindowPosition();"
+        },
+        {
+            "trigger": "GetWindowScaleDPI(void);",
+            "contents": "GetWindowScaleDPI();"
+        },
+        {
+            "trigger": "char *GetMonitorName(int monitor);",
+            "contents": "char *GetMonitorName(${1:monitor});"
+        },
+        {
+            "trigger": "SetClipboardText(const char *text);",
+            "contents": "SetClipboardText(${1:*text});"
+        },
+        {
+            "trigger": "char *GetClipboardText(void);",
+            "contents": "char *GetClipboardText();"
+        },
+        {
+            "trigger": "GetClipboardImage(void);",
+            "contents": "GetClipboardImage();"
+        },
+        {
+            "trigger": "EnableEventWaiting(void);",
+            "contents": "EnableEventWaiting();"
+        },
+        {
+            "trigger": "DisableEventWaiting(void);",
+            "contents": "DisableEventWaiting();"
+        },
+        {
+            "trigger": "ShowCursor(void);",
+            "contents": "ShowCursor();"
+        },
+        {
+            "trigger": "HideCursor(void);",
+            "contents": "HideCursor();"
+        },
+        {
+            "trigger": "IsCursorHidden(void);",
+            "contents": "IsCursorHidden();"
+        },
+        {
+            "trigger": "EnableCursor(void);",
+            "contents": "EnableCursor();"
+        },
+        {
+            "trigger": "DisableCursor(void);",
+            "contents": "DisableCursor();"
+        },
+        {
+            "trigger": "IsCursorOnScreen(void);",
+            "contents": "IsCursorOnScreen();"
+        },
+        {
+            "trigger": "ClearBackground(Color color);",
+            "contents": "ClearBackground(${1:color});"
+        },
+        {
+            "trigger": "BeginDrawing(void);",
+            "contents": "BeginDrawing();"
+        },
+        {
+            "trigger": "EndDrawing(void);",
+            "contents": "EndDrawing();"
+        },
+        {
+            "trigger": "BeginMode2D(Camera2D camera);",
+            "contents": "BeginMode2D(${1:camera});"
+        },
+        {
+            "trigger": "EndMode2D(void);",
+            "contents": "EndMode2D();"
+        },
+        {
+            "trigger": "BeginMode3D(Camera3D camera);",
+            "contents": "BeginMode3D(${1:camera});"
+        },
+        {
+            "trigger": "EndMode3D(void);",
+            "contents": "EndMode3D();"
+        },
+        {
+            "trigger": "BeginTextureMode(RenderTexture2D target);",
+            "contents": "BeginTextureMode(${1:target});"
+        },
+        {
+            "trigger": "EndTextureMode(void);",
+            "contents": "EndTextureMode();"
+        },
+        {
+            "trigger": "BeginShaderMode(Shader shader);",
+            "contents": "BeginShaderMode(${1:shader});"
+        },
+        {
+            "trigger": "EndShaderMode(void);",
+            "contents": "EndShaderMode();"
+        },
+        {
+            "trigger": "BeginBlendMode(int mode);",
+            "contents": "BeginBlendMode(${1:mode});"
+        },
+        {
+            "trigger": "EndBlendMode(void);",
+            "contents": "EndBlendMode();"
+        },
+        {
+            "trigger": "BeginScissorMode(int x, int y, int width, int height);",
+            "contents": "BeginScissorMode(${1:x}, ${2:y}, ${3:width}, ${4:height});"
+        },
+        {
+            "trigger": "EndScissorMode(void);",
+            "contents": "EndScissorMode();"
+        },
+        {
+            "trigger": "BeginVrStereoMode(VrStereoConfig config);",
+            "contents": "BeginVrStereoMode(${1:config});"
+        },
+        {
+            "trigger": "EndVrStereoMode(void);",
+            "contents": "EndVrStereoMode();"
+        },
+        {
+            "trigger": "LoadVrStereoConfig(VrDeviceInfo device);",
+            "contents": "LoadVrStereoConfig(${1:device});"
+        },
+        {
+            "trigger": "UnloadVrStereoConfig(VrStereoConfig config);",
+            "contents": "UnloadVrStereoConfig(${1:config});"
+        },
+        {
+            "trigger": "LoadShader(const char *vsFileName, const char *fsFileName);",
+            "contents": "LoadShader(${1:*vsFileName}, ${2:*fsFileName});"
+        },
+        {
+            "trigger": "LoadShaderFromMemory(const char *vsCode, const char *fsCode);",
+            "contents": "LoadShaderFromMemory(${1:*vsCode}, ${2:*fsCode});"
+        },
+        {
+            "trigger": "IsShaderValid(Shader shader);",
+            "contents": "IsShaderValid(${1:shader});"
+        },
+        {
+            "trigger": "GetShaderLocation(Shader shader, const char *uniformName);",
+            "contents": "GetShaderLocation(${1:shader}, ${2:*uniformName});"
+        },
+        {
+            "trigger": "GetShaderLocationAttrib(Shader shader, const char *attribName);",
+            "contents": "GetShaderLocationAttrib(${1:shader}, ${2:*attribName});"
+        },
+        {
+            "trigger": "SetShaderValue(Shader shader, int locIndex, const void *value, int uniformType);",
+            "contents": "SetShaderValue(${1:shader}, ${2:locIndex}, ${3:*value}, ${4:uniformType});"
+        },
+        {
+            "trigger": "SetShaderValueV(Shader shader, int locIndex, const void *value, int uniformType, int count);",
+            "contents": "SetShaderValueV(${1:shader}, ${2:locIndex}, ${3:*value}, ${4:uniformType}, ${5:count});"
+        },
+        {
+            "trigger": "SetShaderValueMatrix(Shader shader, int locIndex, Matrix mat);",
+            "contents": "SetShaderValueMatrix(${1:shader}, ${2:locIndex}, ${3:mat});"
+        },
+        {
+            "trigger": "SetShaderValueTexture(Shader shader, int locIndex, Texture2D texture);",
+            "contents": "SetShaderValueTexture(${1:shader}, ${2:locIndex}, ${3:texture});"
+        },
+        {
+            "trigger": "UnloadShader(Shader shader);",
+            "contents": "UnloadShader(${1:shader});"
+        },
+        {
+            "trigger": "GetScreenToWorldRay(Vector2 position, Camera camera);",
+            "contents": "GetScreenToWorldRay(${1:position}, ${2:camera});"
+        },
+        {
+            "trigger": "GetScreenToWorldRayEx(Vector2 position, Camera camera, int width, int height);",
+            "contents": "GetScreenToWorldRayEx(${1:position}, ${2:camera}, ${3:width}, ${4:height});"
+        },
+        {
+            "trigger": "GetWorldToScreen(Vector3 position, Camera camera);",
+            "contents": "GetWorldToScreen(${1:position}, ${2:camera});"
+        },
+        {
+            "trigger": "GetWorldToScreenEx(Vector3 position, Camera camera, int width, int height);",
+            "contents": "GetWorldToScreenEx(${1:position}, ${2:camera}, ${3:width}, ${4:height});"
+        },
+        {
+            "trigger": "GetWorldToScreen2D(Vector2 position, Camera2D camera);",
+            "contents": "GetWorldToScreen2D(${1:position}, ${2:camera});"
+        },
+        {
+            "trigger": "GetScreenToWorld2D(Vector2 position, Camera2D camera);",
+            "contents": "GetScreenToWorld2D(${1:position}, ${2:camera});"
+        },
+        {
+            "trigger": "GetCameraMatrix(Camera camera);",
+            "contents": "GetCameraMatrix(${1:camera});"
+        },
+        {
+            "trigger": "GetCameraMatrix2D(Camera2D camera);",
+            "contents": "GetCameraMatrix2D(${1:camera});"
+        },
+        {
+            "trigger": "SetTargetFPS(int fps);",
+            "contents": "SetTargetFPS(${1:fps});"
+        },
+        {
+            "trigger": "GetFrameTime(void);",
+            "contents": "GetFrameTime();"
+        },
+        {
+            "trigger": "GetTime(void);",
+            "contents": "GetTime();"
+        },
+        {
+            "trigger": "GetFPS(void);",
+            "contents": "GetFPS();"
+        },
+        {
+            "trigger": "SwapScreenBuffer(void);",
+            "contents": "SwapScreenBuffer();"
+        },
+        {
+            "trigger": "PollInputEvents(void);",
+            "contents": "PollInputEvents();"
+        },
+        {
+            "trigger": "WaitTime(double seconds);",
+            "contents": "WaitTime(${1:seconds});"
+        },
+        {
+            "trigger": "SetRandomSeed(unsigned int seed);",
+            "contents": "SetRandomSeed(${1:seed});"
+        },
+        {
+            "trigger": "GetRandomValue(int min, int max);",
+            "contents": "GetRandomValue(${1:min}, ${2:max});"
+        },
+        {
+            "trigger": "LoadRandomSequence(unsigned int count, int min, int max);",
+            "contents": "LoadRandomSequence(${1:count}, ${2:min}, ${3:max});"
+        },
+        {
+            "trigger": "UnloadRandomSequence(int *sequence);",
+            "contents": "UnloadRandomSequence(${1:*sequence});"
+        },
+        {
+            "trigger": "TakeScreenshot(const char *fileName);",
+            "contents": "TakeScreenshot(${1:*fileName});"
+        },
+        {
+            "trigger": "SetConfigFlags(unsigned int flags);",
+            "contents": "SetConfigFlags(${1:flags});"
+        },
+        {
+            "trigger": "OpenURL(const char *url);",
+            "contents": "OpenURL(${1:*url});"
+        },
+        {
+            "trigger": "TraceLog(int logLevel, const char *text, ...);",
+            "contents": "TraceLog(${1:logLevel}, ${2:*text}, ${3:...});"
+        },
+        {
+            "trigger": "SetTraceLogLevel(int logLevel);",
+            "contents": "SetTraceLogLevel(${1:logLevel});"
+        },
+        {
+            "trigger": "MemAlloc(unsigned int size);",
+            "contents": "MemAlloc(${1:size});"
+        },
+        {
+            "trigger": "MemRealloc(void *ptr, unsigned int size);",
+            "contents": "MemRealloc(${1:*ptr}, ${2:size});"
+        },
+        {
+            "trigger": "MemFree(void *ptr);",
+            "contents": "MemFree(${1:*ptr});"
+        },
+        {
+            "trigger": "SetTraceLogCallback(TraceLogCallback callback);",
+            "contents": "SetTraceLogCallback(${1:callback});"
+        },
+        {
+            "trigger": "SetLoadFileDataCallback(LoadFileDataCallback callback);",
+            "contents": "SetLoadFileDataCallback(${1:callback});"
+        },
+        {
+            "trigger": "SetSaveFileDataCallback(SaveFileDataCallback callback);",
+            "contents": "SetSaveFileDataCallback(${1:callback});"
+        },
+        {
+            "trigger": "SetLoadFileTextCallback(LoadFileTextCallback callback);",
+            "contents": "SetLoadFileTextCallback(${1:callback});"
+        },
+        {
+            "trigger": "SetSaveFileTextCallback(SaveFileTextCallback callback);",
+            "contents": "SetSaveFileTextCallback(${1:callback});"
+        },
+        {
+            "trigger": "char *LoadFileData(const char *fileName, int *dataSize);",
+            "contents": "char *LoadFileData(${1:*fileName}, ${2:*dataSize});"
+        },
+        {
+            "trigger": "UnloadFileData(unsigned char *data);",
+            "contents": "UnloadFileData(${1:*data});"
+        },
+        {
+            "trigger": "SaveFileData(const char *fileName, void *data, int dataSize);",
+            "contents": "SaveFileData(${1:*fileName}, ${2:*data}, ${3:dataSize});"
+        },
+        {
+            "trigger": "ExportDataAsCode(const unsigned char *data, int dataSize, const char *fileName);",
+            "contents": "ExportDataAsCode(${1:*data}, ${2:dataSize}, ${3:*fileName});"
+        },
+        {
+            "trigger": "LoadFileText(const char *fileName);",
+            "contents": "LoadFileText(${1:*fileName});"
+        },
+        {
+            "trigger": "UnloadFileText(char *text);",
+            "contents": "UnloadFileText(${1:*text});"
+        },
+        {
+            "trigger": "SaveFileText(const char *fileName, char *text);",
+            "contents": "SaveFileText(${1:*fileName}, ${2:*text});"
+        },
+        {
+            "trigger": "FileExists(const char *fileName);",
+            "contents": "FileExists(${1:*fileName});"
+        },
+        {
+            "trigger": "DirectoryExists(const char *dirPath);",
+            "contents": "DirectoryExists(${1:*dirPath});"
+        },
+        {
+            "trigger": "IsFileExtension(const char *fileName, const char *ext);",
+            "contents": "IsFileExtension(${1:*fileName}, ${2:*ext});"
+        },
+        {
+            "trigger": "GetFileLength(const char *fileName);",
+            "contents": "GetFileLength(${1:*fileName});"
+        },
+        {
+            "trigger": "char *GetFileExtension(const char *fileName);",
+            "contents": "char *GetFileExtension(${1:*fileName});"
+        },
+        {
+            "trigger": "char *GetFileName(const char *filePath);",
+            "contents": "char *GetFileName(${1:*filePath});"
+        },
+        {
+            "trigger": "char *GetFileNameWithoutExt(const char *filePath);",
+            "contents": "char *GetFileNameWithoutExt(${1:*filePath});"
+        },
+        {
+            "trigger": "char *GetDirectoryPath(const char *filePath);",
+            "contents": "char *GetDirectoryPath(${1:*filePath});"
+        },
+        {
+            "trigger": "char *GetPrevDirectoryPath(const char *dirPath);",
+            "contents": "char *GetPrevDirectoryPath(${1:*dirPath});"
+        },
+        {
+            "trigger": "char *GetWorkingDirectory(void);",
+            "contents": "char *GetWorkingDirectory();"
+        },
+        {
+            "trigger": "char *GetApplicationDirectory(void);",
+            "contents": "char *GetApplicationDirectory();"
+        },
+        {
+            "trigger": "MakeDirectory(const char *dirPath);",
+            "contents": "MakeDirectory(${1:*dirPath});"
+        },
+        {
+            "trigger": "ChangeDirectory(const char *dir);",
+            "contents": "ChangeDirectory(${1:*dir});"
+        },
+        {
+            "trigger": "IsPathFile(const char *path);",
+            "contents": "IsPathFile(${1:*path});"
+        },
+        {
+            "trigger": "IsFileNameValid(const char *fileName);",
+            "contents": "IsFileNameValid(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadDirectoryFiles(const char *dirPath);",
+            "contents": "LoadDirectoryFiles(${1:*dirPath});"
+        },
+        {
+            "trigger": "LoadDirectoryFilesEx(const char *basePath, const char *filter, bool scanSubdirs);",
+            "contents": "LoadDirectoryFilesEx(${1:*basePath}, ${2:*filter}, ${3:scanSubdirs});"
+        },
+        {
+            "trigger": "UnloadDirectoryFiles(FilePathList files);",
+            "contents": "UnloadDirectoryFiles(${1:files});"
+        },
+        {
+            "trigger": "IsFileDropped(void);",
+            "contents": "IsFileDropped();"
+        },
+        {
+            "trigger": "LoadDroppedFiles(void);",
+            "contents": "LoadDroppedFiles();"
+        },
+        {
+            "trigger": "UnloadDroppedFiles(FilePathList files);",
+            "contents": "UnloadDroppedFiles(${1:files});"
+        },
+        {
+            "trigger": "GetFileModTime(const char *fileName);",
+            "contents": "GetFileModTime(${1:*fileName});"
+        },
+        {
+            "trigger": "char *CompressData(const unsigned char *data, int dataSize, int *compDataSize);",
+            "contents": "char *CompressData(${1:*data}, ${2:dataSize}, ${3:*compDataSize});"
+        },
+        {
+            "trigger": "char *DecompressData(const unsigned char *compData, int compDataSize, int *dataSize);",
+            "contents": "char *DecompressData(${1:*compData}, ${2:compDataSize}, ${3:*dataSize});"
+        },
+        {
+            "trigger": "EncodeDataBase64(const unsigned char *data, int dataSize, int *outputSize);",
+            "contents": "EncodeDataBase64(${1:*data}, ${2:dataSize}, ${3:*outputSize});"
+        },
+        {
+            "trigger": "char *DecodeDataBase64(const unsigned char *data, int *outputSize);",
+            "contents": "char *DecodeDataBase64(${1:*data}, ${2:*outputSize});"
+        },
+        {
+            "trigger": "int ComputeCRC32(unsigned char *data, int dataSize);",
+            "contents": "int ComputeCRC32(${1:*data}, ${2:dataSize});"
+        },
+        {
+            "trigger": "int *ComputeMD5(unsigned char *data, int dataSize);",
+            "contents": "int *ComputeMD5(${1:*data}, ${2:dataSize});"
+        },
+        {
+            "trigger": "int *ComputeSHA1(unsigned char *data, int dataSize);",
+            "contents": "int *ComputeSHA1(${1:*data}, ${2:dataSize});"
+        },
+        {
+            "trigger": "LoadAutomationEventList(const char *fileName);",
+            "contents": "LoadAutomationEventList(${1:*fileName});"
+        },
+        {
+            "trigger": "UnloadAutomationEventList(AutomationEventList list);",
+            "contents": "UnloadAutomationEventList(${1:list});"
+        },
+        {
+            "trigger": "ExportAutomationEventList(AutomationEventList list, const char *fileName);",
+            "contents": "ExportAutomationEventList(${1:list}, ${2:*fileName});"
+        },
+        {
+            "trigger": "SetAutomationEventList(AutomationEventList *list);",
+            "contents": "SetAutomationEventList(${1:*list});"
+        },
+        {
+            "trigger": "SetAutomationEventBaseFrame(int frame);",
+            "contents": "SetAutomationEventBaseFrame(${1:frame});"
+        },
+        {
+            "trigger": "StartAutomationEventRecording(void);",
+            "contents": "StartAutomationEventRecording();"
+        },
+        {
+            "trigger": "StopAutomationEventRecording(void);",
+            "contents": "StopAutomationEventRecording();"
+        },
+        {
+            "trigger": "PlayAutomationEvent(AutomationEvent event);",
+            "contents": "PlayAutomationEvent(${1:event});"
+        },
+        {
+            "trigger": "IsKeyPressed(int key);",
+            "contents": "IsKeyPressed(${1:key});"
+        },
+        {
+            "trigger": "IsKeyPressedRepeat(int key);",
+            "contents": "IsKeyPressedRepeat(${1:key});"
+        },
+        {
+            "trigger": "IsKeyDown(int key);",
+            "contents": "IsKeyDown(${1:key});"
+        },
+        {
+            "trigger": "IsKeyReleased(int key);",
+            "contents": "IsKeyReleased(${1:key});"
+        },
+        {
+            "trigger": "IsKeyUp(int key);",
+            "contents": "IsKeyUp(${1:key});"
+        },
+        {
+            "trigger": "GetKeyPressed(void);",
+            "contents": "GetKeyPressed();"
+        },
+        {
+            "trigger": "GetCharPressed(void);",
+            "contents": "GetCharPressed();"
+        },
+        {
+            "trigger": "SetExitKey(int key);",
+            "contents": "SetExitKey(${1:key});"
+        },
+        {
+            "trigger": "IsGamepadAvailable(int gamepad);",
+            "contents": "IsGamepadAvailable(${1:gamepad});"
+        },
+        {
+            "trigger": "char *GetGamepadName(int gamepad);",
+            "contents": "char *GetGamepadName(${1:gamepad});"
+        },
+        {
+            "trigger": "IsGamepadButtonPressed(int gamepad, int button);",
+            "contents": "IsGamepadButtonPressed(${1:gamepad}, ${2:button});"
+        },
+        {
+            "trigger": "IsGamepadButtonDown(int gamepad, int button);",
+            "contents": "IsGamepadButtonDown(${1:gamepad}, ${2:button});"
+        },
+        {
+            "trigger": "IsGamepadButtonReleased(int gamepad, int button);",
+            "contents": "IsGamepadButtonReleased(${1:gamepad}, ${2:button});"
+        },
+        {
+            "trigger": "IsGamepadButtonUp(int gamepad, int button);",
+            "contents": "IsGamepadButtonUp(${1:gamepad}, ${2:button});"
+        },
+        {
+            "trigger": "GetGamepadButtonPressed(void);",
+            "contents": "GetGamepadButtonPressed();"
+        },
+        {
+            "trigger": "GetGamepadAxisCount(int gamepad);",
+            "contents": "GetGamepadAxisCount(${1:gamepad});"
+        },
+        {
+            "trigger": "GetGamepadAxisMovement(int gamepad, int axis);",
+            "contents": "GetGamepadAxisMovement(${1:gamepad}, ${2:axis});"
+        },
+        {
+            "trigger": "SetGamepadMappings(const char *mappings);",
+            "contents": "SetGamepadMappings(${1:*mappings});"
+        },
+        {
+            "trigger": "SetGamepadVibration(int gamepad, float leftMotor, float rightMotor, float duration);",
+            "contents": "SetGamepadVibration(${1:gamepad}, ${2:leftMotor}, ${3:rightMotor}, ${4:duration});"
+        },
+        {
+            "trigger": "IsMouseButtonPressed(int button);",
+            "contents": "IsMouseButtonPressed(${1:button});"
+        },
+        {
+            "trigger": "IsMouseButtonDown(int button);",
+            "contents": "IsMouseButtonDown(${1:button});"
+        },
+        {
+            "trigger": "IsMouseButtonReleased(int button);",
+            "contents": "IsMouseButtonReleased(${1:button});"
+        },
+        {
+            "trigger": "IsMouseButtonUp(int button);",
+            "contents": "IsMouseButtonUp(${1:button});"
+        },
+        {
+            "trigger": "GetMouseX(void);",
+            "contents": "GetMouseX();"
+        },
+        {
+            "trigger": "GetMouseY(void);",
+            "contents": "GetMouseY();"
+        },
+        {
+            "trigger": "GetMousePosition(void);",
+            "contents": "GetMousePosition();"
+        },
+        {
+            "trigger": "GetMouseDelta(void);",
+            "contents": "GetMouseDelta();"
+        },
+        {
+            "trigger": "SetMousePosition(int x, int y);",
+            "contents": "SetMousePosition(${1:x}, ${2:y});"
+        },
+        {
+            "trigger": "SetMouseOffset(int offsetX, int offsetY);",
+            "contents": "SetMouseOffset(${1:offsetX}, ${2:offsetY});"
+        },
+        {
+            "trigger": "SetMouseScale(float scaleX, float scaleY);",
+            "contents": "SetMouseScale(${1:scaleX}, ${2:scaleY});"
+        },
+        {
+            "trigger": "GetMouseWheelMove(void);",
+            "contents": "GetMouseWheelMove();"
+        },
+        {
+            "trigger": "GetMouseWheelMoveV(void);",
+            "contents": "GetMouseWheelMoveV();"
+        },
+        {
+            "trigger": "SetMouseCursor(int cursor);",
+            "contents": "SetMouseCursor(${1:cursor});"
+        },
+        {
+            "trigger": "GetTouchX(void);",
+            "contents": "GetTouchX();"
+        },
+        {
+            "trigger": "GetTouchY(void);",
+            "contents": "GetTouchY();"
+        },
+        {
+            "trigger": "GetTouchPosition(int index);",
+            "contents": "GetTouchPosition(${1:index});"
+        },
+        {
+            "trigger": "GetTouchPointId(int index);",
+            "contents": "GetTouchPointId(${1:index});"
+        },
+        {
+            "trigger": "GetTouchPointCount(void);",
+            "contents": "GetTouchPointCount();"
+        },
+        {
+            "trigger": "SetGesturesEnabled(unsigned int flags);",
+            "contents": "SetGesturesEnabled(${1:flags});"
+        },
+        {
+            "trigger": "IsGestureDetected(unsigned int gesture);",
+            "contents": "IsGestureDetected(${1:gesture});"
+        },
+        {
+            "trigger": "GetGestureDetected(void);",
+            "contents": "GetGestureDetected();"
+        },
+        {
+            "trigger": "GetGestureHoldDuration(void);",
+            "contents": "GetGestureHoldDuration();"
+        },
+        {
+            "trigger": "GetGestureDragVector(void);",
+            "contents": "GetGestureDragVector();"
+        },
+        {
+            "trigger": "GetGestureDragAngle(void);",
+            "contents": "GetGestureDragAngle();"
+        },
+        {
+            "trigger": "GetGesturePinchVector(void);",
+            "contents": "GetGesturePinchVector();"
+        },
+        {
+            "trigger": "GetGesturePinchAngle(void);",
+            "contents": "GetGesturePinchAngle();"
+        },
+        {
+            "trigger": "UpdateCamera(Camera *camera, int mode);",
+            "contents": "UpdateCamera(${1:*camera}, ${2:mode});"
+        },
+        {
+            "trigger": "UpdateCameraPro(Camera *camera, Vector3 movement, Vector3 rotation, float zoom);",
+            "contents": "UpdateCameraPro(${1:*camera}, ${2:movement}, ${3:rotation}, ${4:zoom});"
+        },
+        {
+            "trigger": "SetShapesTexture(Texture2D texture, Rectangle source);",
+            "contents": "SetShapesTexture(${1:texture}, ${2:source});"
+        },
+        {
+            "trigger": "GetShapesTexture(void);",
+            "contents": "GetShapesTexture();"
+        },
+        {
+            "trigger": "GetShapesTextureRectangle(void);",
+            "contents": "GetShapesTextureRectangle();"
+        },
+        {
+            "trigger": "DrawPixel(int posX, int posY, Color color);",
+            "contents": "DrawPixel(${1:posX}, ${2:posY}, ${3:color});"
+        },
+        {
+            "trigger": "DrawPixelV(Vector2 position, Color color);",
+            "contents": "DrawPixelV(${1:position}, ${2:color});"
+        },
+        {
+            "trigger": "DrawLine(int startPosX, int startPosY, int endPosX, int endPosY, Color color);",
+            "contents": "DrawLine(${1:startPosX}, ${2:startPosY}, ${3:endPosX}, ${4:endPosY}, ${5:color});"
+        },
+        {
+            "trigger": "DrawLineV(Vector2 startPos, Vector2 endPos, Color color);",
+            "contents": "DrawLineV(${1:startPos}, ${2:endPos}, ${3:color});"
+        },
+        {
+            "trigger": "DrawLineEx(Vector2 startPos, Vector2 endPos, float thick, Color color);",
+            "contents": "DrawLineEx(${1:startPos}, ${2:endPos}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawLineStrip(const Vector2 *points, int pointCount, Color color);",
+            "contents": "DrawLineStrip(${1:*points}, ${2:pointCount}, ${3:color});"
+        },
+        {
+            "trigger": "DrawLineBezier(Vector2 startPos, Vector2 endPos, float thick, Color color);",
+            "contents": "DrawLineBezier(${1:startPos}, ${2:endPos}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawCircle(int centerX, int centerY, float radius, Color color);",
+            "contents": "DrawCircle(${1:centerX}, ${2:centerY}, ${3:radius}, ${4:color});"
+        },
+        {
+            "trigger": "DrawCircleSector(Vector2 center, float radius, float startAngle, float endAngle, int segments, Color color);",
+            "contents": "DrawCircleSector(${1:center}, ${2:radius}, ${3:startAngle}, ${4:endAngle}, ${5:segments}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCircleSectorLines(Vector2 center, float radius, float startAngle, float endAngle, int segments, Color color);",
+            "contents": "DrawCircleSectorLines(${1:center}, ${2:radius}, ${3:startAngle}, ${4:endAngle}, ${5:segments}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCircleGradient(int centerX, int centerY, float radius, Color inner, Color outer);",
+            "contents": "DrawCircleGradient(${1:centerX}, ${2:centerY}, ${3:radius}, ${4:inner}, ${5:outer});"
+        },
+        {
+            "trigger": "DrawCircleV(Vector2 center, float radius, Color color);",
+            "contents": "DrawCircleV(${1:center}, ${2:radius}, ${3:color});"
+        },
+        {
+            "trigger": "DrawCircleLines(int centerX, int centerY, float radius, Color color);",
+            "contents": "DrawCircleLines(${1:centerX}, ${2:centerY}, ${3:radius}, ${4:color});"
+        },
+        {
+            "trigger": "DrawCircleLinesV(Vector2 center, float radius, Color color);",
+            "contents": "DrawCircleLinesV(${1:center}, ${2:radius}, ${3:color});"
+        },
+        {
+            "trigger": "DrawEllipse(int centerX, int centerY, float radiusH, float radiusV, Color color);",
+            "contents": "DrawEllipse(${1:centerX}, ${2:centerY}, ${3:radiusH}, ${4:radiusV}, ${5:color});"
+        },
+        {
+            "trigger": "DrawEllipseLines(int centerX, int centerY, float radiusH, float radiusV, Color color);",
+            "contents": "DrawEllipseLines(${1:centerX}, ${2:centerY}, ${3:radiusH}, ${4:radiusV}, ${5:color});"
+        },
+        {
+            "trigger": "DrawRing(Vector2 center, float innerRadius, float outerRadius, float startAngle, float endAngle, int segments, Color color);",
+            "contents": "DrawRing(${1:center}, ${2:innerRadius}, ${3:outerRadius}, ${4:startAngle}, ${5:endAngle}, ${6:segments}, ${7:color});"
+        },
+        {
+            "trigger": "DrawRingLines(Vector2 center, float innerRadius, float outerRadius, float startAngle, float endAngle, int segments, Color color);",
+            "contents": "DrawRingLines(${1:center}, ${2:innerRadius}, ${3:outerRadius}, ${4:startAngle}, ${5:endAngle}, ${6:segments}, ${7:color});"
+        },
+        {
+            "trigger": "DrawRectangle(int posX, int posY, int width, int height, Color color);",
+            "contents": "DrawRectangle(${1:posX}, ${2:posY}, ${3:width}, ${4:height}, ${5:color});"
+        },
+        {
+            "trigger": "DrawRectangleV(Vector2 position, Vector2 size, Color color);",
+            "contents": "DrawRectangleV(${1:position}, ${2:size}, ${3:color});"
+        },
+        {
+            "trigger": "DrawRectangleRec(Rectangle rec, Color color);",
+            "contents": "DrawRectangleRec(${1:rec}, ${2:color});"
+        },
+        {
+            "trigger": "DrawRectanglePro(Rectangle rec, Vector2 origin, float rotation, Color color);",
+            "contents": "DrawRectanglePro(${1:rec}, ${2:origin}, ${3:rotation}, ${4:color});"
+        },
+        {
+            "trigger": "DrawRectangleGradientV(int posX, int posY, int width, int height, Color top, Color bottom);",
+            "contents": "DrawRectangleGradientV(${1:posX}, ${2:posY}, ${3:width}, ${4:height}, ${5:top}, ${6:bottom});"
+        },
+        {
+            "trigger": "DrawRectangleGradientH(int posX, int posY, int width, int height, Color left, Color right);",
+            "contents": "DrawRectangleGradientH(${1:posX}, ${2:posY}, ${3:width}, ${4:height}, ${5:left}, ${6:right});"
+        },
+        {
+            "trigger": "DrawRectangleGradientEx(Rectangle rec, Color topLeft, Color bottomLeft, Color topRight, Color bottomRight);",
+            "contents": "DrawRectangleGradientEx(${1:rec}, ${2:topLeft}, ${3:bottomLeft}, ${4:topRight}, ${5:bottomRight});"
+        },
+        {
+            "trigger": "DrawRectangleLines(int posX, int posY, int width, int height, Color color);",
+            "contents": "DrawRectangleLines(${1:posX}, ${2:posY}, ${3:width}, ${4:height}, ${5:color});"
+        },
+        {
+            "trigger": "DrawRectangleLinesEx(Rectangle rec, float lineThick, Color color);",
+            "contents": "DrawRectangleLinesEx(${1:rec}, ${2:lineThick}, ${3:color});"
+        },
+        {
+            "trigger": "DrawRectangleRounded(Rectangle rec, float roundness, int segments, Color color);",
+            "contents": "DrawRectangleRounded(${1:rec}, ${2:roundness}, ${3:segments}, ${4:color});"
+        },
+        {
+            "trigger": "DrawRectangleRoundedLines(Rectangle rec, float roundness, int segments, Color color);",
+            "contents": "DrawRectangleRoundedLines(${1:rec}, ${2:roundness}, ${3:segments}, ${4:color});"
+        },
+        {
+            "trigger": "DrawRectangleRoundedLinesEx(Rectangle rec, float roundness, int segments, float lineThick, Color color);",
+            "contents": "DrawRectangleRoundedLinesEx(${1:rec}, ${2:roundness}, ${3:segments}, ${4:lineThick}, ${5:color});"
+        },
+        {
+            "trigger": "DrawTriangle(Vector2 v1, Vector2 v2, Vector2 v3, Color color);",
+            "contents": "DrawTriangle(${1:v1}, ${2:v2}, ${3:v3}, ${4:color});"
+        },
+        {
+            "trigger": "DrawTriangleLines(Vector2 v1, Vector2 v2, Vector2 v3, Color color);",
+            "contents": "DrawTriangleLines(${1:v1}, ${2:v2}, ${3:v3}, ${4:color});"
+        },
+        {
+            "trigger": "DrawTriangleFan(const Vector2 *points, int pointCount, Color color);",
+            "contents": "DrawTriangleFan(${1:*points}, ${2:pointCount}, ${3:color});"
+        },
+        {
+            "trigger": "DrawTriangleStrip(const Vector2 *points, int pointCount, Color color);",
+            "contents": "DrawTriangleStrip(${1:*points}, ${2:pointCount}, ${3:color});"
+        },
+        {
+            "trigger": "DrawPoly(Vector2 center, int sides, float radius, float rotation, Color color);",
+            "contents": "DrawPoly(${1:center}, ${2:sides}, ${3:radius}, ${4:rotation}, ${5:color});"
+        },
+        {
+            "trigger": "DrawPolyLines(Vector2 center, int sides, float radius, float rotation, Color color);",
+            "contents": "DrawPolyLines(${1:center}, ${2:sides}, ${3:radius}, ${4:rotation}, ${5:color});"
+        },
+        {
+            "trigger": "DrawPolyLinesEx(Vector2 center, int sides, float radius, float rotation, float lineThick, Color color);",
+            "contents": "DrawPolyLinesEx(${1:center}, ${2:sides}, ${3:radius}, ${4:rotation}, ${5:lineThick}, ${6:color});"
+        },
+        {
+            "trigger": "DrawSplineLinear(const Vector2 *points, int pointCount, float thick, Color color);",
+            "contents": "DrawSplineLinear(${1:*points}, ${2:pointCount}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineBasis(const Vector2 *points, int pointCount, float thick, Color color);",
+            "contents": "DrawSplineBasis(${1:*points}, ${2:pointCount}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineCatmullRom(const Vector2 *points, int pointCount, float thick, Color color);",
+            "contents": "DrawSplineCatmullRom(${1:*points}, ${2:pointCount}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineBezierQuadratic(const Vector2 *points, int pointCount, float thick, Color color);",
+            "contents": "DrawSplineBezierQuadratic(${1:*points}, ${2:pointCount}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineBezierCubic(const Vector2 *points, int pointCount, float thick, Color color);",
+            "contents": "DrawSplineBezierCubic(${1:*points}, ${2:pointCount}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineSegmentLinear(Vector2 p1, Vector2 p2, float thick, Color color);",
+            "contents": "DrawSplineSegmentLinear(${1:p1}, ${2:p2}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "DrawSplineSegmentBasis(Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float thick, Color color);",
+            "contents": "DrawSplineSegmentBasis(${1:p1}, ${2:p2}, ${3:p3}, ${4:p4}, ${5:thick}, ${6:color});"
+        },
+        {
+            "trigger": "DrawSplineSegmentCatmullRom(Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float thick, Color color);",
+            "contents": "DrawSplineSegmentCatmullRom(${1:p1}, ${2:p2}, ${3:p3}, ${4:p4}, ${5:thick}, ${6:color});"
+        },
+        {
+            "trigger": "DrawSplineSegmentBezierQuadratic(Vector2 p1, Vector2 c2, Vector2 p3, float thick, Color color);",
+            "contents": "DrawSplineSegmentBezierQuadratic(${1:p1}, ${2:c2}, ${3:p3}, ${4:thick}, ${5:color});"
+        },
+        {
+            "trigger": "DrawSplineSegmentBezierCubic(Vector2 p1, Vector2 c2, Vector2 c3, Vector2 p4, float thick, Color color);",
+            "contents": "DrawSplineSegmentBezierCubic(${1:p1}, ${2:c2}, ${3:c3}, ${4:p4}, ${5:thick}, ${6:color});"
+        },
+        {
+            "trigger": "GetSplinePointLinear(Vector2 startPos, Vector2 endPos, float t);",
+            "contents": "GetSplinePointLinear(${1:startPos}, ${2:endPos}, ${3:t});"
+        },
+        {
+            "trigger": "GetSplinePointBasis(Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);",
+            "contents": "GetSplinePointBasis(${1:p1}, ${2:p2}, ${3:p3}, ${4:p4}, ${5:t});"
+        },
+        {
+            "trigger": "GetSplinePointCatmullRom(Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);",
+            "contents": "GetSplinePointCatmullRom(${1:p1}, ${2:p2}, ${3:p3}, ${4:p4}, ${5:t});"
+        },
+        {
+            "trigger": "GetSplinePointBezierQuad(Vector2 p1, Vector2 c2, Vector2 p3, float t);",
+            "contents": "GetSplinePointBezierQuad(${1:p1}, ${2:c2}, ${3:p3}, ${4:t});"
+        },
+        {
+            "trigger": "GetSplinePointBezierCubic(Vector2 p1, Vector2 c2, Vector2 c3, Vector2 p4, float t);",
+            "contents": "GetSplinePointBezierCubic(${1:p1}, ${2:c2}, ${3:c3}, ${4:p4}, ${5:t});"
+        },
+        {
+            "trigger": "CheckCollisionRecs(Rectangle rec1, Rectangle rec2);",
+            "contents": "CheckCollisionRecs(${1:rec1}, ${2:rec2});"
+        },
+        {
+            "trigger": "CheckCollisionCircles(Vector2 center1, float radius1, Vector2 center2, float radius2);",
+            "contents": "CheckCollisionCircles(${1:center1}, ${2:radius1}, ${3:center2}, ${4:radius2});"
+        },
+        {
+            "trigger": "CheckCollisionCircleRec(Vector2 center, float radius, Rectangle rec);",
+            "contents": "CheckCollisionCircleRec(${1:center}, ${2:radius}, ${3:rec});"
+        },
+        {
+            "trigger": "CheckCollisionCircleLine(Vector2 center, float radius, Vector2 p1, Vector2 p2);",
+            "contents": "CheckCollisionCircleLine(${1:center}, ${2:radius}, ${3:p1}, ${4:p2});"
+        },
+        {
+            "trigger": "CheckCollisionPointRec(Vector2 point, Rectangle rec);",
+            "contents": "CheckCollisionPointRec(${1:point}, ${2:rec});"
+        },
+        {
+            "trigger": "CheckCollisionPointCircle(Vector2 point, Vector2 center, float radius);",
+            "contents": "CheckCollisionPointCircle(${1:point}, ${2:center}, ${3:radius});"
+        },
+        {
+            "trigger": "CheckCollisionPointTriangle(Vector2 point, Vector2 p1, Vector2 p2, Vector2 p3);",
+            "contents": "CheckCollisionPointTriangle(${1:point}, ${2:p1}, ${3:p2}, ${4:p3});"
+        },
+        {
+            "trigger": "CheckCollisionPointLine(Vector2 point, Vector2 p1, Vector2 p2, int threshold);",
+            "contents": "CheckCollisionPointLine(${1:point}, ${2:p1}, ${3:p2}, ${4:threshold});"
+        },
+        {
+            "trigger": "CheckCollisionPointPoly(Vector2 point, const Vector2 *points, int pointCount);",
+            "contents": "CheckCollisionPointPoly(${1:point}, ${2:*points}, ${3:pointCount});"
+        },
+        {
+            "trigger": "CheckCollisionLines(Vector2 startPos1, Vector2 endPos1, Vector2 startPos2, Vector2 endPos2, Vector2 *collisionPoint);",
+            "contents": "CheckCollisionLines(${1:startPos1}, ${2:endPos1}, ${3:startPos2}, ${4:endPos2}, ${5:*collisionPoint});"
+        },
+        {
+            "trigger": "GetCollisionRec(Rectangle rec1, Rectangle rec2);",
+            "contents": "GetCollisionRec(${1:rec1}, ${2:rec2});"
+        },
+        {
+            "trigger": "LoadImage(const char *fileName);",
+            "contents": "LoadImage(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadImageRaw(const char *fileName, int width, int height, int format, int headerSize);",
+            "contents": "LoadImageRaw(${1:*fileName}, ${2:width}, ${3:height}, ${4:format}, ${5:headerSize});"
+        },
+        {
+            "trigger": "LoadImageAnim(const char *fileName, int *frames);",
+            "contents": "LoadImageAnim(${1:*fileName}, ${2:*frames});"
+        },
+        {
+            "trigger": "LoadImageAnimFromMemory(const char *fileType, const unsigned char *fileData, int dataSize, int *frames);",
+            "contents": "LoadImageAnimFromMemory(${1:*fileType}, ${2:*fileData}, ${3:dataSize}, ${4:*frames});"
+        },
+        {
+            "trigger": "LoadImageFromMemory(const char *fileType, const unsigned char *fileData, int dataSize);",
+            "contents": "LoadImageFromMemory(${1:*fileType}, ${2:*fileData}, ${3:dataSize});"
+        },
+        {
+            "trigger": "LoadImageFromTexture(Texture2D texture);",
+            "contents": "LoadImageFromTexture(${1:texture});"
+        },
+        {
+            "trigger": "LoadImageFromScreen(void);",
+            "contents": "LoadImageFromScreen();"
+        },
+        {
+            "trigger": "IsImageValid(Image image);",
+            "contents": "IsImageValid(${1:image});"
+        },
+        {
+            "trigger": "UnloadImage(Image image);",
+            "contents": "UnloadImage(${1:image});"
+        },
+        {
+            "trigger": "ExportImage(Image image, const char *fileName);",
+            "contents": "ExportImage(${1:image}, ${2:*fileName});"
+        },
+        {
+            "trigger": "char *ExportImageToMemory(Image image, const char *fileType, int *fileSize);",
+            "contents": "char *ExportImageToMemory(${1:image}, ${2:*fileType}, ${3:*fileSize});"
+        },
+        {
+            "trigger": "ExportImageAsCode(Image image, const char *fileName);",
+            "contents": "ExportImageAsCode(${1:image}, ${2:*fileName});"
+        },
+        {
+            "trigger": "GenImageColor(int width, int height, Color color);",
+            "contents": "GenImageColor(${1:width}, ${2:height}, ${3:color});"
+        },
+        {
+            "trigger": "GenImageGradientLinear(int width, int height, int direction, Color start, Color end);",
+            "contents": "GenImageGradientLinear(${1:width}, ${2:height}, ${3:direction}, ${4:start}, ${5:end});"
+        },
+        {
+            "trigger": "GenImageGradientRadial(int width, int height, float density, Color inner, Color outer);",
+            "contents": "GenImageGradientRadial(${1:width}, ${2:height}, ${3:density}, ${4:inner}, ${5:outer});"
+        },
+        {
+            "trigger": "GenImageGradientSquare(int width, int height, float density, Color inner, Color outer);",
+            "contents": "GenImageGradientSquare(${1:width}, ${2:height}, ${3:density}, ${4:inner}, ${5:outer});"
+        },
+        {
+            "trigger": "GenImageChecked(int width, int height, int checksX, int checksY, Color col1, Color col2);",
+            "contents": "GenImageChecked(${1:width}, ${2:height}, ${3:checksX}, ${4:checksY}, ${5:col1}, ${6:col2});"
+        },
+        {
+            "trigger": "GenImageWhiteNoise(int width, int height, float factor);",
+            "contents": "GenImageWhiteNoise(${1:width}, ${2:height}, ${3:factor});"
+        },
+        {
+            "trigger": "GenImagePerlinNoise(int width, int height, int offsetX, int offsetY, float scale);",
+            "contents": "GenImagePerlinNoise(${1:width}, ${2:height}, ${3:offsetX}, ${4:offsetY}, ${5:scale});"
+        },
+        {
+            "trigger": "GenImageCellular(int width, int height, int tileSize);",
+            "contents": "GenImageCellular(${1:width}, ${2:height}, ${3:tileSize});"
+        },
+        {
+            "trigger": "GenImageText(int width, int height, const char *text);",
+            "contents": "GenImageText(${1:width}, ${2:height}, ${3:*text});"
+        },
+        {
+            "trigger": "ImageCopy(Image image);",
+            "contents": "ImageCopy(${1:image});"
+        },
+        {
+            "trigger": "ImageFromImage(Image image, Rectangle rec);",
+            "contents": "ImageFromImage(${1:image}, ${2:rec});"
+        },
+        {
+            "trigger": "ImageFromChannel(Image image, int selectedChannel);",
+            "contents": "ImageFromChannel(${1:image}, ${2:selectedChannel});"
+        },
+        {
+            "trigger": "ImageText(const char *text, int fontSize, Color color);",
+            "contents": "ImageText(${1:*text}, ${2:fontSize}, ${3:color});"
+        },
+        {
+            "trigger": "ImageTextEx(Font font, const char *text, float fontSize, float spacing, Color tint);",
+            "contents": "ImageTextEx(${1:font}, ${2:*text}, ${3:fontSize}, ${4:spacing}, ${5:tint});"
+        },
+        {
+            "trigger": "ImageFormat(Image *image, int newFormat);",
+            "contents": "ImageFormat(${1:*image}, ${2:newFormat});"
+        },
+        {
+            "trigger": "ImageToPOT(Image *image, Color fill);",
+            "contents": "ImageToPOT(${1:*image}, ${2:fill});"
+        },
+        {
+            "trigger": "ImageCrop(Image *image, Rectangle crop);",
+            "contents": "ImageCrop(${1:*image}, ${2:crop});"
+        },
+        {
+            "trigger": "ImageAlphaCrop(Image *image, float threshold);",
+            "contents": "ImageAlphaCrop(${1:*image}, ${2:threshold});"
+        },
+        {
+            "trigger": "ImageAlphaClear(Image *image, Color color, float threshold);",
+            "contents": "ImageAlphaClear(${1:*image}, ${2:color}, ${3:threshold});"
+        },
+        {
+            "trigger": "ImageAlphaMask(Image *image, Image alphaMask);",
+            "contents": "ImageAlphaMask(${1:*image}, ${2:alphaMask});"
+        },
+        {
+            "trigger": "ImageAlphaPremultiply(Image *image);",
+            "contents": "ImageAlphaPremultiply(${1:*image});"
+        },
+        {
+            "trigger": "ImageBlurGaussian(Image *image, int blurSize);",
+            "contents": "ImageBlurGaussian(${1:*image}, ${2:blurSize});"
+        },
+        {
+            "trigger": "ImageKernelConvolution(Image *image, const float *kernel, int kernelSize);",
+            "contents": "ImageKernelConvolution(${1:*image}, ${2:*kernel}, ${3:kernelSize});"
+        },
+        {
+            "trigger": "ImageResize(Image *image, int newWidth, int newHeight);",
+            "contents": "ImageResize(${1:*image}, ${2:newWidth}, ${3:newHeight});"
+        },
+        {
+            "trigger": "ImageResizeNN(Image *image, int newWidth,int newHeight);",
+            "contents": "ImageResizeNN(${1:*image}, ${2:newWidth}, ${3:newHeight});"
+        },
+        {
+            "trigger": "ImageResizeCanvas(Image *image, int newWidth, int newHeight, int offsetX, int offsetY, Color fill);",
+            "contents": "ImageResizeCanvas(${1:*image}, ${2:newWidth}, ${3:newHeight}, ${4:offsetX}, ${5:offsetY}, ${6:fill});"
+        },
+        {
+            "trigger": "ImageMipmaps(Image *image);",
+            "contents": "ImageMipmaps(${1:*image});"
+        },
+        {
+            "trigger": "ImageDither(Image *image, int rBpp, int gBpp, int bBpp, int aBpp);",
+            "contents": "ImageDither(${1:*image}, ${2:rBpp}, ${3:gBpp}, ${4:bBpp}, ${5:aBpp});"
+        },
+        {
+            "trigger": "ImageFlipVertical(Image *image);",
+            "contents": "ImageFlipVertical(${1:*image});"
+        },
+        {
+            "trigger": "ImageFlipHorizontal(Image *image);",
+            "contents": "ImageFlipHorizontal(${1:*image});"
+        },
+        {
+            "trigger": "ImageRotate(Image *image, int degrees);",
+            "contents": "ImageRotate(${1:*image}, ${2:degrees});"
+        },
+        {
+            "trigger": "ImageRotateCW(Image *image);",
+            "contents": "ImageRotateCW(${1:*image});"
+        },
+        {
+            "trigger": "ImageRotateCCW(Image *image);",
+            "contents": "ImageRotateCCW(${1:*image});"
+        },
+        {
+            "trigger": "ImageColorTint(Image *image, Color color);",
+            "contents": "ImageColorTint(${1:*image}, ${2:color});"
+        },
+        {
+            "trigger": "ImageColorInvert(Image *image);",
+            "contents": "ImageColorInvert(${1:*image});"
+        },
+        {
+            "trigger": "ImageColorGrayscale(Image *image);",
+            "contents": "ImageColorGrayscale(${1:*image});"
+        },
+        {
+            "trigger": "ImageColorContrast(Image *image, float contrast);",
+            "contents": "ImageColorContrast(${1:*image}, ${2:contrast});"
+        },
+        {
+            "trigger": "ImageColorBrightness(Image *image, int brightness);",
+            "contents": "ImageColorBrightness(${1:*image}, ${2:brightness});"
+        },
+        {
+            "trigger": "ImageColorReplace(Image *image, Color color, Color replace);",
+            "contents": "ImageColorReplace(${1:*image}, ${2:color}, ${3:replace});"
+        },
+        {
+            "trigger": "LoadImageColors(Image image);",
+            "contents": "LoadImageColors(${1:image});"
+        },
+        {
+            "trigger": "LoadImagePalette(Image image, int maxPaletteSize, int *colorCount);",
+            "contents": "LoadImagePalette(${1:image}, ${2:maxPaletteSize}, ${3:*colorCount});"
+        },
+        {
+            "trigger": "UnloadImageColors(Color *colors);",
+            "contents": "UnloadImageColors(${1:*colors});"
+        },
+        {
+            "trigger": "UnloadImagePalette(Color *colors);",
+            "contents": "UnloadImagePalette(${1:*colors});"
+        },
+        {
+            "trigger": "GetImageAlphaBorder(Image image, float threshold);",
+            "contents": "GetImageAlphaBorder(${1:image}, ${2:threshold});"
+        },
+        {
+            "trigger": "GetImageColor(Image image, int x, int y);",
+            "contents": "GetImageColor(${1:image}, ${2:x}, ${3:y});"
+        },
+        {
+            "trigger": "ImageClearBackground(Image *dst, Color color);",
+            "contents": "ImageClearBackground(${1:*dst}, ${2:color});"
+        },
+        {
+            "trigger": "ImageDrawPixel(Image *dst, int posX, int posY, Color color);",
+            "contents": "ImageDrawPixel(${1:*dst}, ${2:posX}, ${3:posY}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawPixelV(Image *dst, Vector2 position, Color color);",
+            "contents": "ImageDrawPixelV(${1:*dst}, ${2:position}, ${3:color});"
+        },
+        {
+            "trigger": "ImageDrawLine(Image *dst, int startPosX, int startPosY, int endPosX, int endPosY, Color color);",
+            "contents": "ImageDrawLine(${1:*dst}, ${2:startPosX}, ${3:startPosY}, ${4:endPosX}, ${5:endPosY}, ${6:color});"
+        },
+        {
+            "trigger": "ImageDrawLineV(Image *dst, Vector2 start, Vector2 end, Color color);",
+            "contents": "ImageDrawLineV(${1:*dst}, ${2:start}, ${3:end}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawLineEx(Image *dst, Vector2 start, Vector2 end, int thick, Color color);",
+            "contents": "ImageDrawLineEx(${1:*dst}, ${2:start}, ${3:end}, ${4:thick}, ${5:color});"
+        },
+        {
+            "trigger": "ImageDrawCircle(Image *dst, int centerX, int centerY, int radius, Color color);",
+            "contents": "ImageDrawCircle(${1:*dst}, ${2:centerX}, ${3:centerY}, ${4:radius}, ${5:color});"
+        },
+        {
+            "trigger": "ImageDrawCircleV(Image *dst, Vector2 center, int radius, Color color);",
+            "contents": "ImageDrawCircleV(${1:*dst}, ${2:center}, ${3:radius}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawCircleLines(Image *dst, int centerX, int centerY, int radius, Color color);",
+            "contents": "ImageDrawCircleLines(${1:*dst}, ${2:centerX}, ${3:centerY}, ${4:radius}, ${5:color});"
+        },
+        {
+            "trigger": "ImageDrawCircleLinesV(Image *dst, Vector2 center, int radius, Color color);",
+            "contents": "ImageDrawCircleLinesV(${1:*dst}, ${2:center}, ${3:radius}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawRectangle(Image *dst, int posX, int posY, int width, int height, Color color);",
+            "contents": "ImageDrawRectangle(${1:*dst}, ${2:posX}, ${3:posY}, ${4:width}, ${5:height}, ${6:color});"
+        },
+        {
+            "trigger": "ImageDrawRectangleV(Image *dst, Vector2 position, Vector2 size, Color color);",
+            "contents": "ImageDrawRectangleV(${1:*dst}, ${2:position}, ${3:size}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawRectangleRec(Image *dst, Rectangle rec, Color color);",
+            "contents": "ImageDrawRectangleRec(${1:*dst}, ${2:rec}, ${3:color});"
+        },
+        {
+            "trigger": "ImageDrawRectangleLines(Image *dst, Rectangle rec, int thick, Color color);",
+            "contents": "ImageDrawRectangleLines(${1:*dst}, ${2:rec}, ${3:thick}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawTriangle(Image *dst, Vector2 v1, Vector2 v2, Vector2 v3, Color color);",
+            "contents": "ImageDrawTriangle(${1:*dst}, ${2:v1}, ${3:v2}, ${4:v3}, ${5:color});"
+        },
+        {
+            "trigger": "ImageDrawTriangleEx(Image *dst, Vector2 v1, Vector2 v2, Vector2 v3, Color c1, Color c2, Color c3);",
+            "contents": "ImageDrawTriangleEx(${1:*dst}, ${2:v1}, ${3:v2}, ${4:v3}, ${5:c1}, ${6:c2}, ${7:c3});"
+        },
+        {
+            "trigger": "ImageDrawTriangleLines(Image *dst, Vector2 v1, Vector2 v2, Vector2 v3, Color color);",
+            "contents": "ImageDrawTriangleLines(${1:*dst}, ${2:v1}, ${3:v2}, ${4:v3}, ${5:color});"
+        },
+        {
+            "trigger": "ImageDrawTriangleFan(Image *dst, Vector2 *points, int pointCount, Color color);",
+            "contents": "ImageDrawTriangleFan(${1:*dst}, ${2:*points}, ${3:pointCount}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDrawTriangleStrip(Image *dst, Vector2 *points, int pointCount, Color color);",
+            "contents": "ImageDrawTriangleStrip(${1:*dst}, ${2:*points}, ${3:pointCount}, ${4:color});"
+        },
+        {
+            "trigger": "ImageDraw(Image *dst, Image src, Rectangle srcRec, Rectangle dstRec, Color tint);",
+            "contents": "ImageDraw(${1:*dst}, ${2:src}, ${3:srcRec}, ${4:dstRec}, ${5:tint});"
+        },
+        {
+            "trigger": "ImageDrawText(Image *dst, const char *text, int posX, int posY, int fontSize, Color color);",
+            "contents": "ImageDrawText(${1:*dst}, ${2:*text}, ${3:posX}, ${4:posY}, ${5:fontSize}, ${6:color});"
+        },
+        {
+            "trigger": "ImageDrawTextEx(Image *dst, Font font, const char *text, Vector2 position, float fontSize, float spacing, Color tint);",
+            "contents": "ImageDrawTextEx(${1:*dst}, ${2:font}, ${3:*text}, ${4:position}, ${5:fontSize}, ${6:spacing}, ${7:tint});"
+        },
+        {
+            "trigger": "LoadTexture(const char *fileName);",
+            "contents": "LoadTexture(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadTextureFromImage(Image image);",
+            "contents": "LoadTextureFromImage(${1:image});"
+        },
+        {
+            "trigger": "LoadTextureCubemap(Image image, int layout);",
+            "contents": "LoadTextureCubemap(${1:image}, ${2:layout});"
+        },
+        {
+            "trigger": "LoadRenderTexture(int width, int height);",
+            "contents": "LoadRenderTexture(${1:width}, ${2:height});"
+        },
+        {
+            "trigger": "IsTextureValid(Texture2D texture);",
+            "contents": "IsTextureValid(${1:texture});"
+        },
+        {
+            "trigger": "UnloadTexture(Texture2D texture);",
+            "contents": "UnloadTexture(${1:texture});"
+        },
+        {
+            "trigger": "IsRenderTextureValid(RenderTexture2D target);",
+            "contents": "IsRenderTextureValid(${1:target});"
+        },
+        {
+            "trigger": "UnloadRenderTexture(RenderTexture2D target);",
+            "contents": "UnloadRenderTexture(${1:target});"
+        },
+        {
+            "trigger": "UpdateTexture(Texture2D texture, const void *pixels);",
+            "contents": "UpdateTexture(${1:texture}, ${2:*pixels});"
+        },
+        {
+            "trigger": "UpdateTextureRec(Texture2D texture, Rectangle rec, const void *pixels);",
+            "contents": "UpdateTextureRec(${1:texture}, ${2:rec}, ${3:*pixels});"
+        },
+        {
+            "trigger": "GenTextureMipmaps(Texture2D *texture);",
+            "contents": "GenTextureMipmaps(${1:*texture});"
+        },
+        {
+            "trigger": "SetTextureFilter(Texture2D texture, int filter);",
+            "contents": "SetTextureFilter(${1:texture}, ${2:filter});"
+        },
+        {
+            "trigger": "SetTextureWrap(Texture2D texture, int wrap);",
+            "contents": "SetTextureWrap(${1:texture}, ${2:wrap});"
+        },
+        {
+            "trigger": "DrawTexture(Texture2D texture, int posX, int posY, Color tint);",
+            "contents": "DrawTexture(${1:texture}, ${2:posX}, ${3:posY}, ${4:tint});"
+        },
+        {
+            "trigger": "DrawTextureV(Texture2D texture, Vector2 position, Color tint);",
+            "contents": "DrawTextureV(${1:texture}, ${2:position}, ${3:tint});"
+        },
+        {
+            "trigger": "DrawTextureEx(Texture2D texture, Vector2 position, float rotation, float scale, Color tint);",
+            "contents": "DrawTextureEx(${1:texture}, ${2:position}, ${3:rotation}, ${4:scale}, ${5:tint});"
+        },
+        {
+            "trigger": "DrawTextureRec(Texture2D texture, Rectangle source, Vector2 position, Color tint);",
+            "contents": "DrawTextureRec(${1:texture}, ${2:source}, ${3:position}, ${4:tint});"
+        },
+        {
+            "trigger": "DrawTexturePro(Texture2D texture, Rectangle source, Rectangle dest, Vector2 origin, float rotation, Color tint);",
+            "contents": "DrawTexturePro(${1:texture}, ${2:source}, ${3:dest}, ${4:origin}, ${5:rotation}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawTextureNPatch(Texture2D texture, NPatchInfo nPatchInfo, Rectangle dest, Vector2 origin, float rotation, Color tint);",
+            "contents": "DrawTextureNPatch(${1:texture}, ${2:nPatchInfo}, ${3:dest}, ${4:origin}, ${5:rotation}, ${6:tint});"
+        },
+        {
+            "trigger": "ColorIsEqual(Color col1, Color col2);",
+            "contents": "ColorIsEqual(${1:col1}, ${2:col2});"
+        },
+        {
+            "trigger": "Fade(Color color, float alpha);",
+            "contents": "Fade(${1:color}, ${2:alpha});"
+        },
+        {
+            "trigger": "ColorToInt(Color color);",
+            "contents": "ColorToInt(${1:color});"
+        },
+        {
+            "trigger": "ColorNormalize(Color color);",
+            "contents": "ColorNormalize(${1:color});"
+        },
+        {
+            "trigger": "ColorFromNormalized(Vector4 normalized);",
+            "contents": "ColorFromNormalized(${1:normalized});"
+        },
+        {
+            "trigger": "ColorToHSV(Color color);",
+            "contents": "ColorToHSV(${1:color});"
+        },
+        {
+            "trigger": "ColorFromHSV(float hue, float saturation, float value);",
+            "contents": "ColorFromHSV(${1:hue}, ${2:saturation}, ${3:value});"
+        },
+        {
+            "trigger": "ColorTint(Color color, Color tint);",
+            "contents": "ColorTint(${1:color}, ${2:tint});"
+        },
+        {
+            "trigger": "ColorBrightness(Color color, float factor);",
+            "contents": "ColorBrightness(${1:color}, ${2:factor});"
+        },
+        {
+            "trigger": "ColorContrast(Color color, float contrast);",
+            "contents": "ColorContrast(${1:color}, ${2:contrast});"
+        },
+        {
+            "trigger": "ColorAlpha(Color color, float alpha);",
+            "contents": "ColorAlpha(${1:color}, ${2:alpha});"
+        },
+        {
+            "trigger": "ColorAlphaBlend(Color dst, Color src, Color tint);",
+            "contents": "ColorAlphaBlend(${1:dst}, ${2:src}, ${3:tint});"
+        },
+        {
+            "trigger": "ColorLerp(Color color1, Color color2, float factor);",
+            "contents": "ColorLerp(${1:color1}, ${2:color2}, ${3:factor});"
+        },
+        {
+            "trigger": "GetColor(unsigned int hexValue);",
+            "contents": "GetColor(${1:hexValue});"
+        },
+        {
+            "trigger": "GetPixelColor(void *srcPtr, int format);",
+            "contents": "GetPixelColor(${1:*srcPtr}, ${2:format});"
+        },
+        {
+            "trigger": "SetPixelColor(void *dstPtr, Color color, int format);",
+            "contents": "SetPixelColor(${1:*dstPtr}, ${2:color}, ${3:format});"
+        },
+        {
+            "trigger": "GetPixelDataSize(int width, int height, int format);",
+            "contents": "GetPixelDataSize(${1:width}, ${2:height}, ${3:format});"
+        },
+        {
+            "trigger": "GetFontDefault(void);",
+            "contents": "GetFontDefault();"
+        },
+        {
+            "trigger": "LoadFont(const char *fileName);",
+            "contents": "LoadFont(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadFontEx(const char *fileName, int fontSize, int *codepoints, int codepointCount);",
+            "contents": "LoadFontEx(${1:*fileName}, ${2:fontSize}, ${3:*codepoints}, ${4:codepointCount});"
+        },
+        {
+            "trigger": "LoadFontFromImage(Image image, Color key, int firstChar);",
+            "contents": "LoadFontFromImage(${1:image}, ${2:key}, ${3:firstChar});"
+        },
+        {
+            "trigger": "LoadFontFromMemory(const char *fileType, const unsigned char *fileData, int dataSize, int fontSize, int *codepoints, int codepointCount);",
+            "contents": "LoadFontFromMemory(${1:*fileType}, ${2:*fileData}, ${3:dataSize}, ${4:fontSize}, ${5:*codepoints}, ${6:codepointCount});"
+        },
+        {
+            "trigger": "IsFontValid(Font font);",
+            "contents": "IsFontValid(${1:font});"
+        },
+        {
+            "trigger": "LoadFontData(const unsigned char *fileData, int dataSize, int fontSize, int *codepoints, int codepointCount, int type);",
+            "contents": "LoadFontData(${1:*fileData}, ${2:dataSize}, ${3:fontSize}, ${4:*codepoints}, ${5:codepointCount}, ${6:type});"
+        },
+        {
+            "trigger": "GenImageFontAtlas(const GlyphInfo *glyphs, Rectangle *glyphRecs, int glyphCount, int fontSize, int padding, int packMethod);",
+            "contents": "GenImageFontAtlas(${1:*glyphs}, ${2:*glyphRecs}, ${3:glyphCount}, ${4:fontSize}, ${5:padding}, ${6:packMethod});"
+        },
+        {
+            "trigger": "UnloadFontData(GlyphInfo *glyphs, int glyphCount);",
+            "contents": "UnloadFontData(${1:*glyphs}, ${2:glyphCount});"
+        },
+        {
+            "trigger": "UnloadFont(Font font);",
+            "contents": "UnloadFont(${1:font});"
+        },
+        {
+            "trigger": "ExportFontAsCode(Font font, const char *fileName);",
+            "contents": "ExportFontAsCode(${1:font}, ${2:*fileName});"
+        },
+        {
+            "trigger": "DrawFPS(int posX, int posY);",
+            "contents": "DrawFPS(${1:posX}, ${2:posY});"
+        },
+        {
+            "trigger": "DrawText(const char *text, int posX, int posY, int fontSize, Color color);",
+            "contents": "DrawText(${1:*text}, ${2:posX}, ${3:posY}, ${4:fontSize}, ${5:color});"
+        },
+        {
+            "trigger": "DrawTextEx(Font font, const char *text, Vector2 position, float fontSize, float spacing, Color tint);",
+            "contents": "DrawTextEx(${1:font}, ${2:*text}, ${3:position}, ${4:fontSize}, ${5:spacing}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawTextPro(Font font, const char *text, Vector2 position, Vector2 origin, float rotation, float fontSize, float spacing, Color tint);",
+            "contents": "DrawTextPro(${1:font}, ${2:*text}, ${3:position}, ${4:origin}, ${5:rotation}, ${6:fontSize}, ${7:spacing}, ${8:tint});"
+        },
+        {
+            "trigger": "DrawTextCodepoint(Font font, int codepoint, Vector2 position, float fontSize, Color tint);",
+            "contents": "DrawTextCodepoint(${1:font}, ${2:codepoint}, ${3:position}, ${4:fontSize}, ${5:tint});"
+        },
+        {
+            "trigger": "DrawTextCodepoints(Font font, const int *codepoints, int codepointCount, Vector2 position, float fontSize, float spacing, Color tint);",
+            "contents": "DrawTextCodepoints(${1:font}, ${2:*codepoints}, ${3:codepointCount}, ${4:position}, ${5:fontSize}, ${6:spacing}, ${7:tint});"
+        },
+        {
+            "trigger": "SetTextLineSpacing(int spacing);",
+            "contents": "SetTextLineSpacing(${1:spacing});"
+        },
+        {
+            "trigger": "MeasureText(const char *text, int fontSize);",
+            "contents": "MeasureText(${1:*text}, ${2:fontSize});"
+        },
+        {
+            "trigger": "MeasureTextEx(Font font, const char *text, float fontSize, float spacing);",
+            "contents": "MeasureTextEx(${1:font}, ${2:*text}, ${3:fontSize}, ${4:spacing});"
+        },
+        {
+            "trigger": "GetGlyphIndex(Font font, int codepoint);",
+            "contents": "GetGlyphIndex(${1:font}, ${2:codepoint});"
+        },
+        {
+            "trigger": "GetGlyphInfo(Font font, int codepoint);",
+            "contents": "GetGlyphInfo(${1:font}, ${2:codepoint});"
+        },
+        {
+            "trigger": "GetGlyphAtlasRec(Font font, int codepoint);",
+            "contents": "GetGlyphAtlasRec(${1:font}, ${2:codepoint});"
+        },
+        {
+            "trigger": "LoadUTF8(const int *codepoints, int length);",
+            "contents": "LoadUTF8(${1:*codepoints}, ${2:length});"
+        },
+        {
+            "trigger": "UnloadUTF8(char *text);",
+            "contents": "UnloadUTF8(${1:*text});"
+        },
+        {
+            "trigger": "LoadCodepoints(const char *text, int *count);",
+            "contents": "LoadCodepoints(${1:*text}, ${2:*count});"
+        },
+        {
+            "trigger": "UnloadCodepoints(int *codepoints);",
+            "contents": "UnloadCodepoints(${1:*codepoints});"
+        },
+        {
+            "trigger": "GetCodepointCount(const char *text);",
+            "contents": "GetCodepointCount(${1:*text});"
+        },
+        {
+            "trigger": "GetCodepoint(const char *text, int *codepointSize);",
+            "contents": "GetCodepoint(${1:*text}, ${2:*codepointSize});"
+        },
+        {
+            "trigger": "GetCodepointNext(const char *text, int *codepointSize);",
+            "contents": "GetCodepointNext(${1:*text}, ${2:*codepointSize});"
+        },
+        {
+            "trigger": "GetCodepointPrevious(const char *text, int *codepointSize);",
+            "contents": "GetCodepointPrevious(${1:*text}, ${2:*codepointSize});"
+        },
+        {
+            "trigger": "char *CodepointToUTF8(int codepoint, int *utf8Size);",
+            "contents": "char *CodepointToUTF8(${1:codepoint}, ${2:*utf8Size});"
+        },
+        {
+            "trigger": "TextCopy(char *dst, const char *src);",
+            "contents": "TextCopy(${1:*dst}, ${2:*src});"
+        },
+        {
+            "trigger": "TextIsEqual(const char *text1, const char *text2);",
+            "contents": "TextIsEqual(${1:*text1}, ${2:*text2});"
+        },
+        {
+            "trigger": "int TextLength(const char *text);",
+            "contents": "int TextLength(${1:*text});"
+        },
+        {
+            "trigger": "char *TextFormat(const char *text, ...);",
+            "contents": "char *TextFormat(${1:*text}, ${2:...});"
+        },
+        {
+            "trigger": "char *TextSubtext(const char *text, int position, int length);",
+            "contents": "char *TextSubtext(${1:*text}, ${2:position}, ${3:length});"
+        },
+        {
+            "trigger": "TextReplace(const char *text, const char *replace, const char *by);",
+            "contents": "TextReplace(${1:*text}, ${2:*replace}, ${3:*by});"
+        },
+        {
+            "trigger": "TextInsert(const char *text, const char *insert, int position);",
+            "contents": "TextInsert(${1:*text}, ${2:*insert}, ${3:position});"
+        },
+        {
+            "trigger": "char *TextJoin(const char *textList, int count, const char *delimiter);",
+            "contents": "char *TextJoin(${1:*textList}, ${2:count}, ${3:*delimiter});"
+        },
+        {
+            "trigger": "char *TextSplit(const char *text, char delimiter, int *count);",
+            "contents": "char *TextSplit(${1:*text}, ${2:delimiter}, ${3:*count});"
+        },
+        {
+            "trigger": "TextAppend(char *text, const char *append, int *position);",
+            "contents": "TextAppend(${1:*text}, ${2:*append}, ${3:*position});"
+        },
+        {
+            "trigger": "TextFindIndex(const char *text, const char *find);",
+            "contents": "TextFindIndex(${1:*text}, ${2:*find});"
+        },
+        {
+            "trigger": "char *TextToUpper(const char *text);",
+            "contents": "char *TextToUpper(${1:*text});"
+        },
+        {
+            "trigger": "char *TextToLower(const char *text);",
+            "contents": "char *TextToLower(${1:*text});"
+        },
+        {
+            "trigger": "char *TextToPascal(const char *text);",
+            "contents": "char *TextToPascal(${1:*text});"
+        },
+        {
+            "trigger": "char *TextToSnake(const char *text);",
+            "contents": "char *TextToSnake(${1:*text});"
+        },
+        {
+            "trigger": "char *TextToCamel(const char *text);",
+            "contents": "char *TextToCamel(${1:*text});"
+        },
+        {
+            "trigger": "TextToInteger(const char *text);",
+            "contents": "TextToInteger(${1:*text});"
+        },
+        {
+            "trigger": "TextToFloat(const char *text);",
+            "contents": "TextToFloat(${1:*text});"
+        },
+        {
+            "trigger": "DrawLine3D(Vector3 startPos, Vector3 endPos, Color color);",
+            "contents": "DrawLine3D(${1:startPos}, ${2:endPos}, ${3:color});"
+        },
+        {
+            "trigger": "DrawPoint3D(Vector3 position, Color color);",
+            "contents": "DrawPoint3D(${1:position}, ${2:color});"
+        },
+        {
+            "trigger": "DrawCircle3D(Vector3 center, float radius, Vector3 rotationAxis, float rotationAngle, Color color);",
+            "contents": "DrawCircle3D(${1:center}, ${2:radius}, ${3:rotationAxis}, ${4:rotationAngle}, ${5:color});"
+        },
+        {
+            "trigger": "DrawTriangle3D(Vector3 v1, Vector3 v2, Vector3 v3, Color color);",
+            "contents": "DrawTriangle3D(${1:v1}, ${2:v2}, ${3:v3}, ${4:color});"
+        },
+        {
+            "trigger": "DrawTriangleStrip3D(const Vector3 *points, int pointCount, Color color);",
+            "contents": "DrawTriangleStrip3D(${1:*points}, ${2:pointCount}, ${3:color});"
+        },
+        {
+            "trigger": "DrawCube(Vector3 position, float width, float height, float length, Color color);",
+            "contents": "DrawCube(${1:position}, ${2:width}, ${3:height}, ${4:length}, ${5:color});"
+        },
+        {
+            "trigger": "DrawCubeV(Vector3 position, Vector3 size, Color color);",
+            "contents": "DrawCubeV(${1:position}, ${2:size}, ${3:color});"
+        },
+        {
+            "trigger": "DrawCubeWires(Vector3 position, float width, float height, float length, Color color);",
+            "contents": "DrawCubeWires(${1:position}, ${2:width}, ${3:height}, ${4:length}, ${5:color});"
+        },
+        {
+            "trigger": "DrawCubeWiresV(Vector3 position, Vector3 size, Color color);",
+            "contents": "DrawCubeWiresV(${1:position}, ${2:size}, ${3:color});"
+        },
+        {
+            "trigger": "DrawSphere(Vector3 centerPos, float radius, Color color);",
+            "contents": "DrawSphere(${1:centerPos}, ${2:radius}, ${3:color});"
+        },
+        {
+            "trigger": "DrawSphereEx(Vector3 centerPos, float radius, int rings, int slices, Color color);",
+            "contents": "DrawSphereEx(${1:centerPos}, ${2:radius}, ${3:rings}, ${4:slices}, ${5:color});"
+        },
+        {
+            "trigger": "DrawSphereWires(Vector3 centerPos, float radius, int rings, int slices, Color color);",
+            "contents": "DrawSphereWires(${1:centerPos}, ${2:radius}, ${3:rings}, ${4:slices}, ${5:color});"
+        },
+        {
+            "trigger": "DrawCylinder(Vector3 position, float radiusTop, float radiusBottom, float height, int slices, Color color);",
+            "contents": "DrawCylinder(${1:position}, ${2:radiusTop}, ${3:radiusBottom}, ${4:height}, ${5:slices}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCylinderEx(Vector3 startPos, Vector3 endPos, float startRadius, float endRadius, int sides, Color color);",
+            "contents": "DrawCylinderEx(${1:startPos}, ${2:endPos}, ${3:startRadius}, ${4:endRadius}, ${5:sides}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCylinderWires(Vector3 position, float radiusTop, float radiusBottom, float height, int slices, Color color);",
+            "contents": "DrawCylinderWires(${1:position}, ${2:radiusTop}, ${3:radiusBottom}, ${4:height}, ${5:slices}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCylinderWiresEx(Vector3 startPos, Vector3 endPos, float startRadius, float endRadius, int sides, Color color);",
+            "contents": "DrawCylinderWiresEx(${1:startPos}, ${2:endPos}, ${3:startRadius}, ${4:endRadius}, ${5:sides}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCapsule(Vector3 startPos, Vector3 endPos, float radius, int slices, int rings, Color color);",
+            "contents": "DrawCapsule(${1:startPos}, ${2:endPos}, ${3:radius}, ${4:slices}, ${5:rings}, ${6:color});"
+        },
+        {
+            "trigger": "DrawCapsuleWires(Vector3 startPos, Vector3 endPos, float radius, int slices, int rings, Color color);",
+            "contents": "DrawCapsuleWires(${1:startPos}, ${2:endPos}, ${3:radius}, ${4:slices}, ${5:rings}, ${6:color});"
+        },
+        {
+            "trigger": "DrawPlane(Vector3 centerPos, Vector2 size, Color color);",
+            "contents": "DrawPlane(${1:centerPos}, ${2:size}, ${3:color});"
+        },
+        {
+            "trigger": "DrawRay(Ray ray, Color color);",
+            "contents": "DrawRay(${1:ray}, ${2:color});"
+        },
+        {
+            "trigger": "DrawGrid(int slices, float spacing);",
+            "contents": "DrawGrid(${1:slices}, ${2:spacing});"
+        },
+        {
+            "trigger": "LoadModel(const char *fileName);",
+            "contents": "LoadModel(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadModelFromMesh(Mesh mesh);",
+            "contents": "LoadModelFromMesh(${1:mesh});"
+        },
+        {
+            "trigger": "IsModelValid(Model model);",
+            "contents": "IsModelValid(${1:model});"
+        },
+        {
+            "trigger": "UnloadModel(Model model);",
+            "contents": "UnloadModel(${1:model});"
+        },
+        {
+            "trigger": "GetModelBoundingBox(Model model);",
+            "contents": "GetModelBoundingBox(${1:model});"
+        },
+        {
+            "trigger": "DrawModel(Model model, Vector3 position, float scale, Color tint);",
+            "contents": "DrawModel(${1:model}, ${2:position}, ${3:scale}, ${4:tint});"
+        },
+        {
+            "trigger": "DrawModelEx(Model model, Vector3 position, Vector3 rotationAxis, float rotationAngle, Vector3 scale, Color tint);",
+            "contents": "DrawModelEx(${1:model}, ${2:position}, ${3:rotationAxis}, ${4:rotationAngle}, ${5:scale}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawModelWires(Model model, Vector3 position, float scale, Color tint);",
+            "contents": "DrawModelWires(${1:model}, ${2:position}, ${3:scale}, ${4:tint});"
+        },
+        {
+            "trigger": "DrawModelWiresEx(Model model, Vector3 position, Vector3 rotationAxis, float rotationAngle, Vector3 scale, Color tint);",
+            "contents": "DrawModelWiresEx(${1:model}, ${2:position}, ${3:rotationAxis}, ${4:rotationAngle}, ${5:scale}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawModelPoints(Model model, Vector3 position, float scale, Color tint);",
+            "contents": "DrawModelPoints(${1:model}, ${2:position}, ${3:scale}, ${4:tint});"
+        },
+        {
+            "trigger": "DrawModelPointsEx(Model model, Vector3 position, Vector3 rotationAxis, float rotationAngle, Vector3 scale, Color tint);",
+            "contents": "DrawModelPointsEx(${1:model}, ${2:position}, ${3:rotationAxis}, ${4:rotationAngle}, ${5:scale}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawBoundingBox(BoundingBox box, Color color);",
+            "contents": "DrawBoundingBox(${1:box}, ${2:color});"
+        },
+        {
+            "trigger": "DrawBillboard(Camera camera, Texture2D texture, Vector3 position, float scale, Color tint);",
+            "contents": "DrawBillboard(${1:camera}, ${2:texture}, ${3:position}, ${4:scale}, ${5:tint});"
+        },
+        {
+            "trigger": "DrawBillboardRec(Camera camera, Texture2D texture, Rectangle source, Vector3 position, Vector2 size, Color tint);",
+            "contents": "DrawBillboardRec(${1:camera}, ${2:texture}, ${3:source}, ${4:position}, ${5:size}, ${6:tint});"
+        },
+        {
+            "trigger": "DrawBillboardPro(Camera camera, Texture2D texture, Rectangle source, Vector3 position, Vector3 up, Vector2 size, Vector2 origin, float rotation, Color tint);",
+            "contents": "DrawBillboardPro(${1:camera}, ${2:texture}, ${3:source}, ${4:position}, ${5:up}, ${6:size}, ${7:origin}, ${8:rotation}, ${9:tint});"
+        },
+        {
+            "trigger": "UploadMesh(Mesh *mesh, bool dynamic);",
+            "contents": "UploadMesh(${1:*mesh}, ${2:dynamic});"
+        },
+        {
+            "trigger": "UpdateMeshBuffer(Mesh mesh, int index, const void *data, int dataSize, int offset);",
+            "contents": "UpdateMeshBuffer(${1:mesh}, ${2:index}, ${3:*data}, ${4:dataSize}, ${5:offset});"
+        },
+        {
+            "trigger": "UnloadMesh(Mesh mesh);",
+            "contents": "UnloadMesh(${1:mesh});"
+        },
+        {
+            "trigger": "DrawMesh(Mesh mesh, Material material, Matrix transform);",
+            "contents": "DrawMesh(${1:mesh}, ${2:material}, ${3:transform});"
+        },
+        {
+            "trigger": "DrawMeshInstanced(Mesh mesh, Material material, const Matrix *transforms, int instances);",
+            "contents": "DrawMeshInstanced(${1:mesh}, ${2:material}, ${3:*transforms}, ${4:instances});"
+        },
+        {
+            "trigger": "GetMeshBoundingBox(Mesh mesh);",
+            "contents": "GetMeshBoundingBox(${1:mesh});"
+        },
+        {
+            "trigger": "GenMeshTangents(Mesh *mesh);",
+            "contents": "GenMeshTangents(${1:*mesh});"
+        },
+        {
+            "trigger": "ExportMesh(Mesh mesh, const char *fileName);",
+            "contents": "ExportMesh(${1:mesh}, ${2:*fileName});"
+        },
+        {
+            "trigger": "ExportMeshAsCode(Mesh mesh, const char *fileName);",
+            "contents": "ExportMeshAsCode(${1:mesh}, ${2:*fileName});"
+        },
+        {
+            "trigger": "GenMeshPoly(int sides, float radius);",
+            "contents": "GenMeshPoly(${1:sides}, ${2:radius});"
+        },
+        {
+            "trigger": "GenMeshPlane(float width, float length, int resX, int resZ);",
+            "contents": "GenMeshPlane(${1:width}, ${2:length}, ${3:resX}, ${4:resZ});"
+        },
+        {
+            "trigger": "GenMeshCube(float width, float height, float length);",
+            "contents": "GenMeshCube(${1:width}, ${2:height}, ${3:length});"
+        },
+        {
+            "trigger": "GenMeshSphere(float radius, int rings, int slices);",
+            "contents": "GenMeshSphere(${1:radius}, ${2:rings}, ${3:slices});"
+        },
+        {
+            "trigger": "GenMeshHemiSphere(float radius, int rings, int slices);",
+            "contents": "GenMeshHemiSphere(${1:radius}, ${2:rings}, ${3:slices});"
+        },
+        {
+            "trigger": "GenMeshCylinder(float radius, float height, int slices);",
+            "contents": "GenMeshCylinder(${1:radius}, ${2:height}, ${3:slices});"
+        },
+        {
+            "trigger": "GenMeshCone(float radius, float height, int slices);",
+            "contents": "GenMeshCone(${1:radius}, ${2:height}, ${3:slices});"
+        },
+        {
+            "trigger": "GenMeshTorus(float radius, float size, int radSeg, int sides);",
+            "contents": "GenMeshTorus(${1:radius}, ${2:size}, ${3:radSeg}, ${4:sides});"
+        },
+        {
+            "trigger": "GenMeshKnot(float radius, float size, int radSeg, int sides);",
+            "contents": "GenMeshKnot(${1:radius}, ${2:size}, ${3:radSeg}, ${4:sides});"
+        },
+        {
+            "trigger": "GenMeshHeightmap(Image heightmap, Vector3 size);",
+            "contents": "GenMeshHeightmap(${1:heightmap}, ${2:size});"
+        },
+        {
+            "trigger": "GenMeshCubicmap(Image cubicmap, Vector3 cubeSize);",
+            "contents": "GenMeshCubicmap(${1:cubicmap}, ${2:cubeSize});"
+        },
+        {
+            "trigger": "LoadMaterials(const char *fileName, int *materialCount);",
+            "contents": "LoadMaterials(${1:*fileName}, ${2:*materialCount});"
+        },
+        {
+            "trigger": "LoadMaterialDefault(void);",
+            "contents": "LoadMaterialDefault();"
+        },
+        {
+            "trigger": "IsMaterialValid(Material material);",
+            "contents": "IsMaterialValid(${1:material});"
+        },
+        {
+            "trigger": "UnloadMaterial(Material material);",
+            "contents": "UnloadMaterial(${1:material});"
+        },
+        {
+            "trigger": "SetMaterialTexture(Material *material, int mapType, Texture2D texture);",
+            "contents": "SetMaterialTexture(${1:*material}, ${2:mapType}, ${3:texture});"
+        },
+        {
+            "trigger": "SetModelMeshMaterial(Model *model, int meshId, int materialId);",
+            "contents": "SetModelMeshMaterial(${1:*model}, ${2:meshId}, ${3:materialId});"
+        },
+        {
+            "trigger": "LoadModelAnimations(const char *fileName, int *animCount);",
+            "contents": "LoadModelAnimations(${1:*fileName}, ${2:*animCount});"
+        },
+        {
+            "trigger": "UpdateModelAnimation(Model model, ModelAnimation anim, int frame);",
+            "contents": "UpdateModelAnimation(${1:model}, ${2:anim}, ${3:frame});"
+        },
+        {
+            "trigger": "UpdateModelAnimationBones(Model model, ModelAnimation anim, int frame);",
+            "contents": "UpdateModelAnimationBones(${1:model}, ${2:anim}, ${3:frame});"
+        },
+        {
+            "trigger": "UnloadModelAnimation(ModelAnimation anim);",
+            "contents": "UnloadModelAnimation(${1:anim});"
+        },
+        {
+            "trigger": "UnloadModelAnimations(ModelAnimation *animations, int animCount);",
+            "contents": "UnloadModelAnimations(${1:*animations}, ${2:animCount});"
+        },
+        {
+            "trigger": "IsModelAnimationValid(Model model, ModelAnimation anim);",
+            "contents": "IsModelAnimationValid(${1:model}, ${2:anim});"
+        },
+        {
+            "trigger": "CheckCollisionSpheres(Vector3 center1, float radius1, Vector3 center2, float radius2);",
+            "contents": "CheckCollisionSpheres(${1:center1}, ${2:radius1}, ${3:center2}, ${4:radius2});"
+        },
+        {
+            "trigger": "CheckCollisionBoxes(BoundingBox box1, BoundingBox box2);",
+            "contents": "CheckCollisionBoxes(${1:box1}, ${2:box2});"
+        },
+        {
+            "trigger": "CheckCollisionBoxSphere(BoundingBox box, Vector3 center, float radius);",
+            "contents": "CheckCollisionBoxSphere(${1:box}, ${2:center}, ${3:radius});"
+        },
+        {
+            "trigger": "GetRayCollisionSphere(Ray ray, Vector3 center, float radius);",
+            "contents": "GetRayCollisionSphere(${1:ray}, ${2:center}, ${3:radius});"
+        },
+        {
+            "trigger": "GetRayCollisionBox(Ray ray, BoundingBox box);",
+            "contents": "GetRayCollisionBox(${1:ray}, ${2:box});"
+        },
+        {
+            "trigger": "GetRayCollisionMesh(Ray ray, Mesh mesh, Matrix transform);",
+            "contents": "GetRayCollisionMesh(${1:ray}, ${2:mesh}, ${3:transform});"
+        },
+        {
+            "trigger": "GetRayCollisionTriangle(Ray ray, Vector3 p1, Vector3 p2, Vector3 p3);",
+            "contents": "GetRayCollisionTriangle(${1:ray}, ${2:p1}, ${3:p2}, ${4:p3});"
+        },
+        {
+            "trigger": "GetRayCollisionQuad(Ray ray, Vector3 p1, Vector3 p2, Vector3 p3, Vector3 p4);",
+            "contents": "GetRayCollisionQuad(${1:ray}, ${2:p1}, ${3:p2}, ${4:p3}, ${5:p4});"
+        },
+        {
+            "trigger": "InitAudioDevice(void);",
+            "contents": "InitAudioDevice();"
+        },
+        {
+            "trigger": "CloseAudioDevice(void);",
+            "contents": "CloseAudioDevice();"
+        },
+        {
+            "trigger": "IsAudioDeviceReady(void);",
+            "contents": "IsAudioDeviceReady();"
+        },
+        {
+            "trigger": "SetMasterVolume(float volume);",
+            "contents": "SetMasterVolume(${1:volume});"
+        },
+        {
+            "trigger": "GetMasterVolume(void);",
+            "contents": "GetMasterVolume();"
+        },
+        {
+            "trigger": "LoadWave(const char *fileName);",
+            "contents": "LoadWave(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadWaveFromMemory(const char *fileType, const unsigned char *fileData, int dataSize);",
+            "contents": "LoadWaveFromMemory(${1:*fileType}, ${2:*fileData}, ${3:dataSize});"
+        },
+        {
+            "trigger": "IsWaveValid(Wave wave);",
+            "contents": "IsWaveValid(${1:wave});"
+        },
+        {
+            "trigger": "LoadSound(const char *fileName);",
+            "contents": "LoadSound(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadSoundFromWave(Wave wave);",
+            "contents": "LoadSoundFromWave(${1:wave});"
+        },
+        {
+            "trigger": "LoadSoundAlias(Sound source);",
+            "contents": "LoadSoundAlias(${1:source});"
+        },
+        {
+            "trigger": "IsSoundValid(Sound sound);",
+            "contents": "IsSoundValid(${1:sound});"
+        },
+        {
+            "trigger": "UpdateSound(Sound sound, const void *data, int sampleCount);",
+            "contents": "UpdateSound(${1:sound}, ${2:*data}, ${3:sampleCount});"
+        },
+        {
+            "trigger": "UnloadWave(Wave wave);",
+            "contents": "UnloadWave(${1:wave});"
+        },
+        {
+            "trigger": "UnloadSound(Sound sound);",
+            "contents": "UnloadSound(${1:sound});"
+        },
+        {
+            "trigger": "UnloadSoundAlias(Sound alias);",
+            "contents": "UnloadSoundAlias(${1:alias});"
+        },
+        {
+            "trigger": "ExportWave(Wave wave, const char *fileName);",
+            "contents": "ExportWave(${1:wave}, ${2:*fileName});"
+        },
+        {
+            "trigger": "ExportWaveAsCode(Wave wave, const char *fileName);",
+            "contents": "ExportWaveAsCode(${1:wave}, ${2:*fileName});"
+        },
+        {
+            "trigger": "PlaySound(Sound sound);",
+            "contents": "PlaySound(${1:sound});"
+        },
+        {
+            "trigger": "StopSound(Sound sound);",
+            "contents": "StopSound(${1:sound});"
+        },
+        {
+            "trigger": "PauseSound(Sound sound);",
+            "contents": "PauseSound(${1:sound});"
+        },
+        {
+            "trigger": "ResumeSound(Sound sound);",
+            "contents": "ResumeSound(${1:sound});"
+        },
+        {
+            "trigger": "IsSoundPlaying(Sound sound);",
+            "contents": "IsSoundPlaying(${1:sound});"
+        },
+        {
+            "trigger": "SetSoundVolume(Sound sound, float volume);",
+            "contents": "SetSoundVolume(${1:sound}, ${2:volume});"
+        },
+        {
+            "trigger": "SetSoundPitch(Sound sound, float pitch);",
+            "contents": "SetSoundPitch(${1:sound}, ${2:pitch});"
+        },
+        {
+            "trigger": "SetSoundPan(Sound sound, float pan);",
+            "contents": "SetSoundPan(${1:sound}, ${2:pan});"
+        },
+        {
+            "trigger": "WaveCopy(Wave wave);",
+            "contents": "WaveCopy(${1:wave});"
+        },
+        {
+            "trigger": "WaveCrop(Wave *wave, int initFrame, int finalFrame);",
+            "contents": "WaveCrop(${1:*wave}, ${2:initFrame}, ${3:finalFrame});"
+        },
+        {
+            "trigger": "WaveFormat(Wave *wave, int sampleRate, int sampleSize, int channels);",
+            "contents": "WaveFormat(${1:*wave}, ${2:sampleRate}, ${3:sampleSize}, ${4:channels});"
+        },
+        {
+            "trigger": "LoadWaveSamples(Wave wave);",
+            "contents": "LoadWaveSamples(${1:wave});"
+        },
+        {
+            "trigger": "UnloadWaveSamples(float *samples);",
+            "contents": "UnloadWaveSamples(${1:*samples});"
+        },
+        {
+            "trigger": "LoadMusicStream(const char *fileName);",
+            "contents": "LoadMusicStream(${1:*fileName});"
+        },
+        {
+            "trigger": "LoadMusicStreamFromMemory(const char *fileType, const unsigned char *data, int dataSize);",
+            "contents": "LoadMusicStreamFromMemory(${1:*fileType}, ${2:*data}, ${3:dataSize});"
+        },
+        {
+            "trigger": "IsMusicValid(Music music);",
+            "contents": "IsMusicValid(${1:music});"
+        },
+        {
+            "trigger": "UnloadMusicStream(Music music);",
+            "contents": "UnloadMusicStream(${1:music});"
+        },
+        {
+            "trigger": "PlayMusicStream(Music music);",
+            "contents": "PlayMusicStream(${1:music});"
+        },
+        {
+            "trigger": "IsMusicStreamPlaying(Music music);",
+            "contents": "IsMusicStreamPlaying(${1:music});"
+        },
+        {
+            "trigger": "UpdateMusicStream(Music music);",
+            "contents": "UpdateMusicStream(${1:music});"
+        },
+        {
+            "trigger": "StopMusicStream(Music music);",
+            "contents": "StopMusicStream(${1:music});"
+        },
+        {
+            "trigger": "PauseMusicStream(Music music);",
+            "contents": "PauseMusicStream(${1:music});"
+        },
+        {
+            "trigger": "ResumeMusicStream(Music music);",
+            "contents": "ResumeMusicStream(${1:music});"
+        },
+        {
+            "trigger": "SeekMusicStream(Music music, float position);",
+            "contents": "SeekMusicStream(${1:music}, ${2:position});"
+        },
+        {
+            "trigger": "SetMusicVolume(Music music, float volume);",
+            "contents": "SetMusicVolume(${1:music}, ${2:volume});"
+        },
+        {
+            "trigger": "SetMusicPitch(Music music, float pitch);",
+            "contents": "SetMusicPitch(${1:music}, ${2:pitch});"
+        },
+        {
+            "trigger": "SetMusicPan(Music music, float pan);",
+            "contents": "SetMusicPan(${1:music}, ${2:pan});"
+        },
+        {
+            "trigger": "GetMusicTimeLength(Music music);",
+            "contents": "GetMusicTimeLength(${1:music});"
+        },
+        {
+            "trigger": "GetMusicTimePlayed(Music music);",
+            "contents": "GetMusicTimePlayed(${1:music});"
+        },
+        {
+            "trigger": "LoadAudioStream(unsigned int sampleRate, unsigned int sampleSize, unsigned int channels);",
+            "contents": "LoadAudioStream(${1:sampleRate}, ${2:sampleSize}, ${3:channels});"
+        },
+        {
+            "trigger": "IsAudioStreamValid(AudioStream stream);",
+            "contents": "IsAudioStreamValid(${1:stream});"
+        },
+        {
+            "trigger": "UnloadAudioStream(AudioStream stream);",
+            "contents": "UnloadAudioStream(${1:stream});"
+        },
+        {
+            "trigger": "UpdateAudioStream(AudioStream stream, const void *data, int frameCount);",
+            "contents": "UpdateAudioStream(${1:stream}, ${2:*data}, ${3:frameCount});"
+        },
+        {
+            "trigger": "IsAudioStreamProcessed(AudioStream stream);",
+            "contents": "IsAudioStreamProcessed(${1:stream});"
+        },
+        {
+            "trigger": "PlayAudioStream(AudioStream stream);",
+            "contents": "PlayAudioStream(${1:stream});"
+        },
+        {
+            "trigger": "PauseAudioStream(AudioStream stream);",
+            "contents": "PauseAudioStream(${1:stream});"
+        },
+        {
+            "trigger": "ResumeAudioStream(AudioStream stream);",
+            "contents": "ResumeAudioStream(${1:stream});"
+        },
+        {
+            "trigger": "IsAudioStreamPlaying(AudioStream stream);",
+            "contents": "IsAudioStreamPlaying(${1:stream});"
+        },
+        {
+            "trigger": "StopAudioStream(AudioStream stream);",
+            "contents": "StopAudioStream(${1:stream});"
+        },
+        {
+            "trigger": "SetAudioStreamVolume(AudioStream stream, float volume);",
+            "contents": "SetAudioStreamVolume(${1:stream}, ${2:volume});"
+        },
+        {
+            "trigger": "SetAudioStreamPitch(AudioStream stream, float pitch);",
+            "contents": "SetAudioStreamPitch(${1:stream}, ${2:pitch});"
+        },
+        {
+            "trigger": "SetAudioStreamPan(AudioStream stream, float pan);",
+            "contents": "SetAudioStreamPan(${1:stream}, ${2:pan});"
+        },
+        {
+            "trigger": "SetAudioStreamBufferSizeDefault(int size);",
+            "contents": "SetAudioStreamBufferSizeDefault(${1:size});"
+        },
+        {
+            "trigger": "SetAudioStreamCallback(AudioStream stream, AudioCallback callback);",
+            "contents": "SetAudioStreamCallback(${1:stream}, ${2:callback});"
+        },
+        {
+            "trigger": "AttachAudioStreamProcessor(AudioStream stream, AudioCallback processor);",
+            "contents": "AttachAudioStreamProcessor(${1:stream}, ${2:processor});"
+        },
+        {
+            "trigger": "DetachAudioStreamProcessor(AudioStream stream, AudioCallback processor);",
+            "contents": "DetachAudioStreamProcessor(${1:stream}, ${2:processor});"
+        },
+        {
+            "trigger": "AttachAudioMixedProcessor(AudioCallback processor);",
+            "contents": "AttachAudioMixedProcessor(${1:processor});"
+        },
+        {
+            "trigger": "DetachAudioMixedProcessor(AudioCallback processor);",
+            "contents": "DetachAudioMixedProcessor(${1:processor});"
+        },
+    ]
+}
