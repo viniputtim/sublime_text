@@ -4,7 +4,7 @@
 # define ${1}
 
 
-# include "core/scene.hpp"
+# include "scenes/scene.hpp"
 
 
 class MainLoop;
