@@ -12,6 +12,7 @@ INCLUDE_DIR = 'include'
 SOURCE_DIR = 'source'
 OUTPUT_DIR = 'build'
 OUTPUT_EXT = '.out'
+SUPPORTED_EXTS = ['.c', '.cpp', '.h', '.hpp']
 
 
 def validate_args():
@@ -19,8 +20,11 @@ def validate_args():
         print('[ERROR]: Insufficient arguments.')
         sys.exit(1)
 
-    if not sys.argv[1].endswith('.cpp'):
-        print('[ERROR]: Provided file is not a .cpp source file.')
+    ext = os.path.splitext(sys.argv[1])[1]
+
+    if ext not in (SUPPORTED_EXTS):
+        print(f'[ERROR]: Unsupported file extension: {ext}')
+        sys.exit(1)
 
 
 def get_library_flags(libraries):
@@ -39,8 +43,10 @@ def find_source_dir(file_path):
     parts = full_path.split(os.sep)
 
     for i in range(len(parts), 0, -1):
-        if parts[i-1] == SOURCE_DIR:
+        if parts[i - 1] == SOURCE_DIR:
             return os.sep.join(parts[:i])
+        elif parts[i - 1] == INCLUDE_DIR:
+            return os.path.join(os.sep.join(parts[:i - 1]), SOURCE_DIR)
 
     return None
 

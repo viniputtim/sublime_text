@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-# ifndef ${1:CLASS_NAME}
-# define ${1}
+# ifndef ${1:CLASS_NAME}_HPP
+# define ${1}_HPP
 
 
 class ${2:ClassName}
@@ -12,10 +12,10 @@ public:
 };
 
 
-# endif
+# endif // ${1}_HPP
 ]]></content>
 <tabTrigger>
-    header
+    clsdef
 </tabTrigger>
 <scope>
     source.c++
